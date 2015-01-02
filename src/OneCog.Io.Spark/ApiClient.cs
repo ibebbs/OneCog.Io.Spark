@@ -28,12 +28,16 @@ namespace OneCog.Io.Spark
 
         public Task<Stream> Get(Uri uri)
         {
-            throw new NotImplementedException();
+            return _client.GetStreamAsync(uri);
         }
 
-        public Task<Stream> Post(Uri uri, HttpContent content)
+        public async Task<Stream> Post(Uri uri, HttpContent content)
         {
-            throw new NotImplementedException();
+            HttpResponseMessage response = await _client.PostAsync(uri, content);
+            
+            response.EnsureSuccessStatusCode();
+
+            return await response.Content.ReadAsStreamAsync();
         }
     }
 }
