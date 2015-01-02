@@ -43,6 +43,8 @@
     <Compile Include="Cloud.cs" />
     <Compile Include="CoreInfo.cs" />
     <Compile Include="Device.cs" />
+    <Compile Include="DeviceInfo.cs" />
+    <Compile Include="Devices.cs" />
     <Compile Include="FunctionResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringExtensions.cs" />

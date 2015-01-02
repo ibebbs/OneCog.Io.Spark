@@ -117,6 +117,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="JsonDeviceInfo" xml:space="preserve">
+    <value>{
+  "id": "53ff6c065075535119511687",
+  "name": "FirstCore",
+  "connected": true,
+  "variables": null,
+  "functions": null,
+  "cc3000_patch_version": "1.29"
+}</value>
+  </data>
+  <data name="JsonDevices" xml:space="preserve">
+    <value>[
+  {
+    "id": "53ff6c065075535119511687",
+    "name": "FirstCore",
+    "last_app": null,
+    "last_heard": "2014-08-22T22:33:25.407Z",
+    "connected": true
+  }
+]</value>
+  </data>
   <data name="JsonFunctionResult" xml:space="preserve">
     <value>{
   "id": "0123456789abcdef01234567",

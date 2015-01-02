@@ -86,6 +86,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApiTestFixture.cs" />
+    <Compile Include="DeviceInfoTestFixture.cs" />
+    <Compile Include="DevicesTestFixture.cs" />
     <Compile Include="FunctionResultTestFixture.cs" />
     <Compile Include="Resources.Designer.cs">
       <AutoGen>True</AutoGen>

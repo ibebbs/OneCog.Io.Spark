@@ -62,6 +62,39 @@ namespace OneCog.Io.Spark.Test {
         
         /// <summary>
         ///   Looks up a localized string similar to {
+        ///  &quot;id&quot;: &quot;53ff6c065075535119511687&quot;,
+        ///  &quot;name&quot;: &quot;FirstCore&quot;,
+        ///  &quot;connected&quot;: true,
+        ///  &quot;variables&quot;: null,
+        ///  &quot;functions&quot;: null,
+        ///  &quot;cc3000_patch_version&quot;: &quot;1.29&quot;
+        ///}.
+        /// </summary>
+        internal static string JsonDeviceInfo {
+            get {
+                return ResourceManager.GetString("JsonDeviceInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to [
+        ///  {
+        ///    &quot;id&quot;: &quot;53ff6c065075535119511687&quot;,
+        ///    &quot;name&quot;: &quot;FirstCore&quot;,
+        ///    &quot;last_app&quot;: null,
+        ///    &quot;last_heard&quot;: &quot;2014-08-22T22:33:25.407Z&quot;,
+        ///    &quot;connected&quot;: true
+        ///  }
+        ///].
+        /// </summary>
+        internal static string JsonDevices {
+            get {
+                return ResourceManager.GetString("JsonDevices", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {
         ///  &quot;id&quot;: &quot;0123456789abcdef01234567&quot;,
         ///  &quot;name&quot;: &quot;prototype99&quot;,
         ///  &quot;connected&quot;: true,

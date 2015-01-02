@@ -18,7 +18,7 @@ namespace OneCog.Io.Spark
 
         object Result { get; }
 
-        CoreInfo CoreInfo { get; }
+        JsonCoreInfo CoreInfo { get; }
     }
 
     internal class JsonVariable : IVariable
@@ -38,7 +38,7 @@ namespace OneCog.Io.Spark
         public object Result { get; set; }
 
         [JsonProperty("coreInfo")]
-        public CoreInfo CoreInfo { get; set; }
+        public JsonCoreInfo CoreInfo { get; set; }
     }
 
 
@@ -72,7 +72,7 @@ namespace OneCog.Io.Spark
         public static Uri Identifier(string deviceId, string name)
         {
             UriBuilder builder = new UriBuilder(Api.Protocol, Api.BaseAddress);
-            builder.Path = string.Format("{0}/{1}/{2}/{3}", Api.Version, Api.Devices, deviceId, name);
+            builder.Path = string.Format("{0}/{1}/{2}/{3}", Api.VersionPath, Api.DevicesPath, deviceId, name);
             return builder.Uri;
         }
     }

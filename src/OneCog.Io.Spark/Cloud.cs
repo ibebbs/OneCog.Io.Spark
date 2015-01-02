@@ -8,10 +8,12 @@ namespace OneCog.Io.Spark
 {
     public interface ICloud
     {
+        Task<IEnumerable<IDevice>> GetDevices();
+
         Task<IDevice> GetDevice(string deviceId);
     }
 
-    public class Cloud
+    public class Cloud : ICloud
     {
         private readonly IApi _api;
 
@@ -23,6 +25,13 @@ namespace OneCog.Io.Spark
         public Task<IDevice> GetDevice(string deviceId)
         {
             return Task.FromResult<IDevice>(new Device(_api, deviceId));
+        }
+
+        public async Task<IEnumerable<IDevice>> GetDevices()
+        {
+            IEnumerable<IDevicesInfo> cores = await _api.GetCores();
+
+            return cores.Select(core => new Device(_api, core.DeviceId)).ToArray();
         }
     }
 }

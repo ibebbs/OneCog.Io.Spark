@@ -57,7 +57,7 @@ namespace OneCog.Io.Spark
         public static Uri Identifier(string deviceId, string name)
         {
             UriBuilder builder = new UriBuilder(Api.Protocol, Api.BaseAddress);
-            builder.Path = string.Format("{0}/{1}/{2}/{3}", Api.Version, Api.Devices, deviceId, name);
+            builder.Path = string.Format("{0}/{1}/{2}/{3}", Api.VersionPath, Api.DevicesPath, deviceId, name);
             return builder.Uri;
         }
 

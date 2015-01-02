@@ -14,6 +14,7 @@ namespace OneCog.Io.Spark
 {
     public interface IApi
     {
+        Task<IEnumerable<IDevicesInfo>> GetCores();
         Task<IVariable> ReadVariable(string deviceId, string variableName);
         Task<IFunctionResult> CallFunction(string deviceId, string functionName, string arguments);
     }
@@ -22,14 +23,31 @@ namespace OneCog.Io.Spark
     {
         public static readonly string Protocol = "https://";
         public static readonly string BaseAddress = "api.spark.io";
-        public static readonly string Version = "v1";
-        public static readonly string Devices = "devices";
+        public static readonly string VersionPath = "v1";
+        public static readonly string DevicesPath = "devices";
         
         private readonly IApiClient _apiClient;
 
         public Api(IApiClient apiClient)
         {
             _apiClient = apiClient;
+        }
+
+        public async Task<IEnumerable<IDevicesInfo>> GetCores()
+        {
+            Uri uri = Devices.Identifier();
+
+            Stream stream = await _apiClient.Get(uri);
+
+            try
+            {
+                return Devices.FromJsonStream(stream);
+            }
+            finally
+            {
+                stream.Dispose();
+                stream = null;
+            }
         }
 
         public async Task<IVariable> ReadVariable(string deviceId, string variableName)

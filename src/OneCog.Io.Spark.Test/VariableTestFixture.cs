@@ -28,7 +28,7 @@ namespace OneCog.Io.Spark.Test
             Assert.That(variable.CoreInfo, Is.Not.Null);
             Assert.That(variable.CoreInfo.DeviceId, Is.EqualTo("53ff6c065075535119511687"));
             Assert.That(variable.CoreInfo.Connected, Is.True);
-            Assert.That(variable.CoreInfo.LastHeard, Is.EqualTo(DateTime.Parse("2014-08-22T22:33:25.407Z")));
+            Assert.That(variable.CoreInfo.LastHeard, Is.EqualTo(new DateTime(2014, 08, 22, 22, 33, 25, 407)));
             Assert.That(variable.CoreInfo.LastApp, Is.EqualTo(string.Empty));
         }
     }
