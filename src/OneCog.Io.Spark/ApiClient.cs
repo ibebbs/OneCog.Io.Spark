@@ -16,7 +16,7 @@ namespace OneCog.Io.Spark
         Task<Stream> Post(Uri uri, HttpContent content);
     }
 
-    internal class ApiClient : IApiClient
+    public class ApiClient : IApiClient
     {
         private readonly HttpClient _client;
 

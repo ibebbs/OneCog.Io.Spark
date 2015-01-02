@@ -19,7 +19,7 @@ namespace OneCog.Io.Spark
         Task<IFunctionResult> CallFunction(string deviceId, string functionName, string arguments);
     }
 
-    internal class Api : IApi
+    public class Api : IApi
     {
         public static readonly string Protocol = "https://";
         public static readonly string BaseAddress = "api.spark.io";
