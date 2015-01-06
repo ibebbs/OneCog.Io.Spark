@@ -16,6 +16,7 @@ namespace OneCog.Io.Spark
     {
         Task<IEnumerable<IDevicesInfo>> GetCores();
         Task<IVariable> ReadVariable(string deviceId, string variableName);
+        IObservable<IVariable> ObserveVariable(string deviceId, string variableName, TimeSpan interval, IScheduler scheduler = null);
         Task<IFunctionResult> CallFunction(string deviceId, string functionName, string arguments);
     }
 
