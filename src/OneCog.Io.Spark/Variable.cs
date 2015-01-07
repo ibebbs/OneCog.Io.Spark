@@ -18,7 +18,7 @@ namespace OneCog.Io.Spark
 
         object Result { get; }
 
-        JsonCoreInfo CoreInfo { get; }
+        ICoreInfo CoreInfo { get; }
     }
 
     internal class JsonVariable : IVariable
@@ -26,6 +26,11 @@ namespace OneCog.Io.Spark
         public T As<T>()
         {
             return (T)Convert.ChangeType(Result, typeof(T));
+        }
+
+        ICoreInfo IVariable.CoreInfo
+        {
+            get { return CoreInfo; }
         }
 
         [JsonProperty("cmd")]
@@ -66,6 +71,35 @@ namespace OneCog.Io.Spark
                 {
                     return Serialiser.Deserialize<JsonVariable>(text);
                 }
+            }
+        }
+
+        public static string ToJsonString(IVariable variable)
+        {
+            JsonVariable jsonVariable = new JsonVariable
+            {
+                Name = variable.Name,
+                Command = variable.Command,
+                Result = variable.Result,
+                CoreInfo = new JsonCoreInfo
+                {
+                    DeviceId = variable.CoreInfo.DeviceId,
+                    Connected = variable.CoreInfo.Connected,
+                    LastHeard = variable.CoreInfo.LastHeard,
+                    LastApp = variable.CoreInfo.LastApp
+                }
+            };
+
+            using (StringWriter stringWriter = new StringWriter())
+            {
+                using (JsonTextWriter writer = new JsonTextWriter(stringWriter))
+                {
+                    writer.Formatting = Formatting.Indented;
+
+                    Serialiser.Serialize(writer, jsonVariable);
+                }
+
+                return stringWriter.ToString();
             }
         }
 

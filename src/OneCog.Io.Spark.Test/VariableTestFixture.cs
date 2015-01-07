@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using OneCog.Io.Spark;
+using FakeItEasy;
 
 namespace OneCog.Io.Spark.Test
 {
@@ -30,6 +31,25 @@ namespace OneCog.Io.Spark.Test
             Assert.That(variable.CoreInfo.Connected, Is.True);
             Assert.That(variable.CoreInfo.LastHeard, Is.EqualTo(new DateTime(2014, 08, 22, 22, 33, 25, 407)));
             Assert.That(variable.CoreInfo.LastApp, Is.EqualTo(string.Empty));
+        }
+
+        [Test]
+        public void CanWriteVariableToStream()
+        {
+            ICoreInfo coreInfo = A.Fake<ICoreInfo>();
+            A.CallTo(() => coreInfo.DeviceId).Returns("53ff6c065075535119511687");
+            A.CallTo(() => coreInfo.Connected).Returns(true);
+            A.CallTo(() => coreInfo.LastHeard).Returns(new DateTime(2014, 08, 22, 22, 33, 25, 407));
+            A.CallTo(() => coreInfo.LastApp).Returns(string.Empty);
+            IVariable variable = A.Fake<IVariable>();
+            A.CallTo(() => variable.Name).Returns("temperature");
+            A.CallTo(() => variable.Command).Returns("VarReturn");
+            A.CallTo(() => variable.Result).Returns(42);
+            A.CallTo(() => variable.CoreInfo).Returns(coreInfo);
+
+            string actual = Variable.ToJsonString(variable);
+
+            Assert.That(actual, Is.EqualTo(Resources.JsonVariable));
         }
     }
 }

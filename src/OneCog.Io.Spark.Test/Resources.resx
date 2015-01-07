@@ -148,15 +148,15 @@
   </data>
   <data name="JsonVariable" xml:space="preserve">
     <value>{
-    "cmd": "VarReturn",
-    "name": "temperature",
-    "result": 42,
-    "coreInfo": {
-    "last_app": "",
-    "last_heard": "2014-08-22T22:33:25.407Z",
+  "cmd": "VarReturn",
+  "name": "temperature",
+  "result": 42,
+  "coreInfo": {
+    "deviceID": "53ff6c065075535119511687",
     "connected": true,
-    "deviceID": "53ff6c065075535119511687"
-    }
+    "last_app": "",
+    "last_heard": "2014-08-22T22:33:25.407"
+  }
 }</value>
   </data>
 </root>

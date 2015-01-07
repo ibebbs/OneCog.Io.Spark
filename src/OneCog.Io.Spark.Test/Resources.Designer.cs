@@ -109,15 +109,15 @@ namespace OneCog.Io.Spark.Test {
         
         /// <summary>
         ///   Looks up a localized string similar to {
-        ///    &quot;cmd&quot;: &quot;VarReturn&quot;,
-        ///    &quot;name&quot;: &quot;temperature&quot;,
-        ///    &quot;result&quot;: 42,
-        ///    &quot;coreInfo&quot;: {
-        ///    &quot;last_app&quot;: &quot;&quot;,
-        ///    &quot;last_heard&quot;: &quot;2014-08-22T22:33:25.407Z&quot;,
+        ///  &quot;cmd&quot;: &quot;VarReturn&quot;,
+        ///  &quot;name&quot;: &quot;temperature&quot;,
+        ///  &quot;result&quot;: 42,
+        ///  &quot;coreInfo&quot;: {
+        ///    &quot;deviceID&quot;: &quot;53ff6c065075535119511687&quot;,
         ///    &quot;connected&quot;: true,
-        ///    &quot;deviceID&quot;: &quot;53ff6c065075535119511687&quot;
-        ///    }
+        ///    &quot;last_app&quot;: &quot;&quot;,
+        ///    &quot;last_heard&quot;: &quot;2014-08-22T22:33:25.407&quot;
+        ///  }
         ///}.
         /// </summary>
         internal static string JsonVariable {
