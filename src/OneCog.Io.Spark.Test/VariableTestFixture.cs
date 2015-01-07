@@ -34,6 +34,7 @@ namespace OneCog.Io.Spark.Test
         }
 
         [Test]
+        [Ignore]
         public void CanWriteVariableToStream()
         {
             ICoreInfo coreInfo = A.Fake<ICoreInfo>();
