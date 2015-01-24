@@ -27,9 +27,9 @@ namespace OneCog.Io.Spark
         public static readonly string VersionPath = "v1";
         public static readonly string DevicesPath = "devices";
         
-        private readonly IApiClient _apiClient;
+        private readonly IRestClient _apiClient;
 
-        public Api(IApiClient apiClient)
+        public Api(IRestClient apiClient)
         {
             _apiClient = apiClient;
         }

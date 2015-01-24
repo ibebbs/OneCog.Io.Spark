@@ -12,13 +12,13 @@ namespace OneCog.Io.Spark.Test
     [TestFixture]
     public class ApiTestFixture
     {
-        private IApiClient _apiClient;
+        private IRestClient _apiClient;
         private Api _api;
  
         [SetUp]
         public void Setup()
         {
-            _apiClient = A.Fake<IApiClient>();
+            _apiClient = A.Fake<IRestClient>();
             _api = new Api(_apiClient);
         }
 
