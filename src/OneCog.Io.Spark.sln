@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneCog.Io.Spark", "OneCog.I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneCog.Io.Spark.Test", "OneCog.Io.Spark.Test\OneCog.Io.Spark.Test.csproj", "{174288F8-F9BF-44AA-BFEE-6369B39E1110}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneCog.Io.Spak.Ninject", "OneCog.Io.Spak.Ninject\OneCog.Io.Spak.Ninject.csproj", "{9652AA1A-A19A-4C19-BAF1-D8ABE409A851}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneCog.Io.Spark.Ninject", "OneCog.Io.Spark.Ninject\OneCog.Io.Spark.Ninject.csproj", "{9652AA1A-A19A-4C19-BAF1-D8ABE409A851}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

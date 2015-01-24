@@ -7,8 +7,8 @@
     <ProjectGuid>{9652AA1A-A19A-4C19-BAF1-D8ABE409A851}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OneCog.Io.Spak.Ninject</RootNamespace>
-    <AssemblyName>OneCog.Io.Spak.Ninject</AssemblyName>
+    <RootNamespace>OneCog.Io.Spark.Ninject</RootNamespace>
+    <AssemblyName>OneCog.Io.Spark.Ninject</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

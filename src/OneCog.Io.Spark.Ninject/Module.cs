@@ -3,7 +3,7 @@ using Ninject;
 using Ninject.Modules;
 using OneCog.Io.Spark;
 
-namespace OneCog.Io.Spak.Ninject
+namespace OneCog.Io.Spark.Ninject
 {
     public class Module : NinjectModule
     {
