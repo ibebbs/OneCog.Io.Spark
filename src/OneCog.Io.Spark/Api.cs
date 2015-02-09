@@ -15,9 +15,9 @@ namespace OneCog.Io.Spark
     public interface IApi
     {
         Task<IEnumerable<IDevicesInfo>> GetCores();
-        Task<IVariable> ReadVariable(string deviceId, string variableName);
-        IObservable<IVariable> ObserveVariable(string deviceId, string variableName, TimeSpan interval, IScheduler scheduler = null);
-        Task<IFunctionResult> CallFunction(string deviceId, string functionName, string arguments);
+        Task<Fallible<IVariable>> ReadVariable(string deviceId, string variableName);
+        IObservable<Fallible<IVariable>> ObserveVariable(string deviceId, string variableName, TimeSpan interval, IScheduler scheduler = null);
+        Task<Fallible<IFunctionResult>> CallFunction(string deviceId, string functionName, string arguments);
     }
 
     public class Api : IApi
@@ -51,48 +51,57 @@ namespace OneCog.Io.Spark
             }
         }
 
-        public async Task<IVariable> ReadVariable(string deviceId, string variableName)
+        public Task<Fallible<IVariable>> ReadVariable(string deviceId, string variableName)
         {
             Uri uri = Variable.Identifier(deviceId, variableName);
 
-            Stream stream = await _apiClient.Get(uri);
+            return Fallible.FromOperationAsync(async () => 
+                {                    
+                    Stream stream = await _apiClient.Get(uri);
 
-            try
-            {
-                return Variable.FromJsonStream(stream);
-            }
-            finally
-            {
-                stream.Dispose();
-                stream = null;
-            }
+                    try
+                    {
+                        return Variable.FromJsonStream(stream);
+                    }
+                    finally
+                    {
+                        stream.Dispose();
+                        stream = null;
+                    }
+                }
+            );
         }
 
-        public IObservable<IVariable> ObserveVariable(string deviceId, string variableName, TimeSpan interval, IScheduler scheduler = null)
+        public IObservable<Fallible<IVariable>> ObserveVariable(string deviceId, string variableName, TimeSpan interval, IScheduler scheduler = null)
         {
             scheduler = scheduler ?? TaskPoolScheduler.Default;
 
-            IObservable<IVariable> observable = Observable.Interval(interval, scheduler).StartWith(0).SelectMany(_ => ReadVariable(deviceId, variableName));
+            IObservable<Fallible<IVariable>> observable = Observable.Interval(interval, scheduler).StartWith(0).SelectMany(_ => ReadVariable(deviceId, variableName));
 
             return observable;
         }
 
-        public async Task<IFunctionResult> CallFunction(string deviceId, string functionName, string arguments)
+        public Task<Fallible<IFunctionResult>> CallFunction(string deviceId, string functionName, string arguments)
         {
             Uri uri = Function.Identifier(deviceId, functionName);
             string args = Function.Arguments(arguments);
 
-            Stream stream = await _apiClient.Post(uri, new StringContent(args));
+            return Fallible.FromOperationAsync(
+                async () => 
+                {
+                    Stream stream = await _apiClient.Post(uri, new StringContent(args));
 
-            try
-            {
-                return Function.FromJsonStream(stream);
-            }
-            finally
-            {
-                stream.Dispose();
-                stream = null;
-            }
+                    try
+                    {
+                        return Function.FromJsonStream(stream);
+                    }
+                    finally
+                    {
+                        stream.Dispose();
+                        stream = null;
+                    }
+                }
+            );
         }
     }
 }

@@ -28,11 +28,13 @@ namespace OneCog.Io.Spark.Test
         {
             A.CallTo(() => _apiClient.Get(new Uri("https://api.spark.io/v1/devices/53ff6c065075535119511687/temperature"))).Returns(Task.FromResult(Resources.JsonVariable.ToStream()));
 
-            IVariable variable = await _api.ReadVariable("53ff6c065075535119511687", "temperature");
+            Fallible<IVariable> variable = await _api.ReadVariable("53ff6c065075535119511687", "temperature");
 
             A.CallTo(() => _apiClient.Get(new Uri("https://api.spark.io/v1/devices/53ff6c065075535119511687/temperature"))).MustHaveHappened();
 
             Assert.That(variable, Is.Not.Null);
+            Assert.That(variable.HasValue, Is.True);
+            Assert.That(variable.Value, Is.Not.Null);
         }
 
         [Test]
@@ -42,9 +44,9 @@ namespace OneCog.Io.Spark.Test
 
             TestScheduler scheduler = new TestScheduler();
 
-            List<IVariable> actual = new List<IVariable>();
+            List<Fallible<IVariable>> actual = new List<Fallible<IVariable>>();
 
-            IObservable<IVariable> observable = _api.ObserveVariable("53ff6c065075535119511687", "temperature", TimeSpan.FromSeconds(10), scheduler);
+            IObservable<Fallible<IVariable>> observable = _api.ObserveVariable("53ff6c065075535119511687", "temperature", TimeSpan.FromSeconds(10), scheduler);
 
             observable.Subscribe(actual.Add);
 
@@ -62,27 +64,19 @@ namespace OneCog.Io.Spark.Test
         [Test]
         public void ShouldPerpetuateVariableObservableException()
         {
-            A.CallTo(() => _apiClient.Get(new Uri("https://api.spark.io/v1/devices/53ff6c065075535119511687/temperature"))).ReturnsLazily(call => Task.FromResult(Resources.JsonVariable.ToStream()));
+            A.CallTo(() => _apiClient.Get(new Uri("https://api.spark.io/v1/devices/53ff6c065075535119511687/temperature"))).ReturnsLazily(call => TaskEx.FromException<Stream>(new InvalidOperationException()));
 
             TestScheduler scheduler = new TestScheduler();
 
-            List<IVariable> actual = new List<IVariable>();
+            List<Fallible<IVariable>> actual = new List<Fallible<IVariable>>();
 
-            IObservable<IVariable> observable = _api.ObserveVariable("53ff6c065075535119511687", "temperature", TimeSpan.FromSeconds(10), scheduler);
+            IObservable<Fallible<IVariable>> observable = _api.ObserveVariable("53ff6c065075535119511687", "temperature", TimeSpan.FromSeconds(10), scheduler);
 
-            Exception exception = null;
-            observable.Subscribe(actual.Add, ex => exception = ex);
+            observable.Subscribe(actual.Add);
 
-            scheduler.AdvanceBy(TimeSpan.FromSeconds(1).Ticks);
-
-            A.CallTo(() => _apiClient.Get(new Uri("https://api.spark.io/v1/devices/53ff6c065075535119511687/temperature"))).MustHaveHappened(Repeated.Exactly.Once);
             Assert.That(actual.Count, Is.EqualTo(1));
-
-            A.CallTo(() => _apiClient.Get(new Uri("https://api.spark.io/v1/devices/53ff6c065075535119511687/temperature"))).ReturnsLazily(call => TaskEx.FromException<Stream>(new InvalidOperationException()));
-
-            scheduler.AdvanceBy(TimeSpan.FromSeconds(9).Ticks);
-
-            Assert.That(exception, Is.Not.Null);
+            Assert.That(actual[0].HasFailed, Is.True);
+            Assert.That(actual[0].Exception, Is.InstanceOf<InvalidOperationException>());
         }
     }
 }

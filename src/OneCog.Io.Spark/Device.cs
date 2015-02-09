@@ -8,9 +8,9 @@ namespace OneCog.Io.Spark
 {
     public interface IDevice
     {
-        Task<T> ReadVariable<T>(string variableName);
+        Task<Fallible<T>> ReadVariable<T>(string variableName);
 
-        Task<long> Call(string functionName, string arguments);
+        Task<Fallible<long>> Call(string functionName, string arguments);
 
         IObservable<string> Events(string named);
 
@@ -28,18 +28,18 @@ namespace OneCog.Io.Spark
             _deviceId = deviceId;
         }
 
-        public async Task<T> ReadVariable<T>(string variableName)
+        public async Task<Fallible<T>> ReadVariable<T>(string variableName)
         {
-            IVariable value = await _api.ReadVariable(_deviceId, variableName);
+            Fallible<IVariable> variable = await _api.ReadVariable(_deviceId, variableName);
 
-            return value.As<T>();
+            return Fallible.Map(variable, value => value.As<T>());
         }
 
-        public async Task<long> Call(string functionName, string arguments)
+        public async Task<Fallible<long>> Call(string functionName, string arguments)
         {
-            IFunctionResult result = await _api.CallFunction(_deviceId, functionName, arguments);
+            Fallible<IFunctionResult> result = await _api.CallFunction(_deviceId, functionName, arguments);
 
-            return result.ReturnValue;
+            return Fallible.Map(result, value => value.ReturnValue);
         }
 
         public IObservable<string> Events(string named)

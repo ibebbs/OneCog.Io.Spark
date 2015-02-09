@@ -39,6 +39,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Api.cs" />
+    <Compile Include="Fallible.cs" />
     <Compile Include="RestClient.cs" />
     <Compile Include="Cloud.cs" />
     <Compile Include="CoreInfo.cs" />
