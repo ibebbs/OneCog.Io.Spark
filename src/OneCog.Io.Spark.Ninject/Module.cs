@@ -2,6 +2,7 @@
 using Ninject;
 using Ninject.Modules;
 using OneCog.Io.Spark;
+using System.Reactive.Concurrency;
 
 namespace OneCog.Io.Spark.Ninject
 {
@@ -17,6 +18,7 @@ namespace OneCog.Io.Spark.Ninject
         public override void Load()
         {
             Bind<string>().ToConstant(_accessToken).WhenInjectedExactlyInto<RestClient>().InSingletonScope();
+            Bind<IScheduler>().ToConstant(Scheduler.TaskPool).WhenInjectedExactlyInto<RestClient>().InSingletonScope();
 
             Bind<RestClient>().ToSelf();
             Bind<IRestClient>().ToMethod(context => TracingProxy.CreateWithActivityScope<IRestClient>(context.Kernel.Get<RestClient>())).InSingletonScope();
