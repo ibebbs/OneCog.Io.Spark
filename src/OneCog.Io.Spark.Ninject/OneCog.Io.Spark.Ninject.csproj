@@ -42,7 +42,7 @@
     </Reference>
     <Reference Include="OneCog.Io.Spark, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\OneCog.Io.Spark.1.0.0.7\lib\portable-net45+win+wpa81+wp80\OneCog.Io.Spark.dll</HintPath>
+      <HintPath>..\packages\OneCog.Io.Spark.1.0.0.15\lib\portable-net45+win+wpa81+wp80\OneCog.Io.Spark.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -73,6 +73,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InstrumentedApi.cs" />
+    <Compile Include="InstrumentedRestClient.cs" />
     <Compile Include="Module.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
