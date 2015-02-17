@@ -22,7 +22,7 @@ namespace OneCog.Io.Spark
         private readonly IScheduler _requestScheduler;
         private readonly IScheduler _responseScheduler;
 
-        public RestClient(string accessToken, IScheduler requestScheduler = null, IScheduler responseScheduler = null)
+        public RestClient(string accessToken, IScheduler requestScheduler, IScheduler responseScheduler)
         {
             _client = new HttpClient();
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
