@@ -17,14 +17,17 @@ namespace OneCog.Io.Spark.Ninject
 
         public override void Load()
         {
-            Bind<string>().ToConstant(_accessToken).WhenInjectedExactlyInto<InstrumentedRestClient>().InSingletonScope();
-            Bind<IScheduler>().ToConstant(TaskPoolScheduler.Default).WhenInjectedExactlyInto<InstrumentedRestClient>().InSingletonScope();
+            EventSourceImplementationAttribute.For<IRestClient>(new EventSourceImplementationAttribute() { Name = "OneCog-Io-Spark-Ninject" });
+            EventSourceImplementationAttribute.For<IApi>(new EventSourceImplementationAttribute() { Name = "OneCog-Io-Spark-Ninject-Api" });
+            
+            Bind<string>().ToConstant(_accessToken).WhenInjectedExactlyInto<RestClient>().InSingletonScope();
+            Bind<IScheduler>().ToConstant(TaskPoolScheduler.Default).WhenInjectedExactlyInto<RestClient>().InSingletonScope();
 
             Bind<RestClient>().ToSelf();
-            Bind<IRestClient>().ToMethod(context => TracingProxy.CreateWithActivityScope<IInstrumentedRestClient>(context.Kernel.Get<InstrumentedRestClient>())).InSingletonScope();
+            Bind<IRestClient>().ToMethod(context => TracingProxy.CreateWithActivityScope<IRestClient>(context.Kernel.Get<RestClient>())).InSingletonScope();
 
             Bind<Api>().ToSelf();
-            Bind<IApi>().ToMethod(context => TracingProxy.CreateWithActivityScope<IInstrumentedApi>(context.Kernel.Get<InstrumentedApi>())).InSingletonScope();
+            Bind<IApi>().ToMethod(context => TracingProxy.CreateWithActivityScope<IApi>(context.Kernel.Get<Api>())).InSingletonScope();
         }
     }
 }
