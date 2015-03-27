@@ -1,0 +1,2605 @@
+:ok
+
+event: pPhoto
+data: {"data":"{\"Photocell\": 1023}","ttl":"60","published_at":"2015-03-24T08:10:24.573Z","coreid":"53ff72065075535122081687"}
+
+event: pMisc
+data: {"data":"{\"Temperature\": 10.2, \"SCL\": 1, \"RSSI\": -63}","ttl":"60","published_at":"2015-03-24T08:10:24.573Z","coreid":"53ff72065075535122081687"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:24.584Z","coreid":"55ff71065075555329511687"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:24.687Z","coreid":"53ff6e066667574836061267"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:24.798Z","coreid":"54ff70066678574926410667"}
+
+event: Temperature
+data: {"data":"70.925000","ttl":"60","published_at":"2015-03-24T08:10:25.087Z","coreid":"48ff6f065067555010361287"}
+
+event: temperature1
+data: {"data":"21","ttl":"60","published_at":"2015-03-24T08:10:25.327Z","coreid":"53ff6d065075535110201787"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:10:25.499Z","coreid":"51ff6a065082554927580687"}
+
+event: motion-xmas-shadowbox
+data: {"data":"motion","ttl":"60","published_at":"2015-03-24T08:10:25.652Z","coreid":"53ff70066667574858340967"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.38 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:25.721Z","coreid":"53ff6e066667574836061267"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:25.832Z","coreid":"54ff70066678574926410667"}
+
+event: temperature2
+data: {"data":"20","ttl":"60","published_at":"2015-03-24T08:10:26.328Z","coreid":"53ff6d065075535110201787"}
+
+event: Measuring...
+data: {"data":"null","ttl":"60","published_at":"2015-03-24T08:10:26.342Z","coreid":"48ff6d065067555058332387"}
+
+event: SupplyVoltage
+data: {"data":"0.018675","ttl":"60","published_at":"2015-03-24T08:10:26.343Z","coreid":"48ff6d065067555058332387"}
+
+event: Uptime
+data: {"data":"17:9:44","ttl":"60","published_at":"2015-03-24T08:10:26.372Z","coreid":"51ff6c065082554925510887"}
+
+event: BeerTemperature
+data: {"data":"61.000000","ttl":"60","published_at":"2015-03-24T08:10:26.376Z","coreid":"51ff6c065082554925510887"}
+
+event: ChamberTemperature
+data: {"data":"70.000000","ttl":"60","published_at":"2015-03-24T08:10:26.428Z","coreid":"51ff6c065082554925510887"}
+
+event: Humidity
+data: {"data":"50","ttl":"60","published_at":"2015-03-24T08:10:26.432Z","coreid":"51ff6c065082554925510887"}
+
+event: SupplyVRaw
+data: {"data":"2096","ttl":"60","published_at":"2015-03-24T08:10:26.435Z","coreid":"48ff6d065067555058332387"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:10:26.501Z","coreid":"51ff6a065082554927580687"}
+
+event: state
+data: {"data":"Washer 0 (0 for 173326 s) Dryer 0 (0 for 170866 s)","ttl":"60","published_at":"2015-03-24T08:10:26.549Z","coreid":"54ff6b066672524826170167"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:26.588Z","coreid":"55ff71065075555329511687"}
+
+event: temperature
+data: {"data":"1057418","ttl":"60","published_at":"2015-03-24T08:10:26.671Z","coreid":"55ff71066678505518151367"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:26.755Z","coreid":"53ff6e066667574836061267"}
+
+event: weatherinfo
+data: {"data":"Grain=57663.00|Lux","ttl":"60","published_at":"2015-03-24T08:10:26.767Z","coreid":"51ff6e065082554929081487"}
+
+event: tempchange
+data: {"data":"2.8,2.9","ttl":"60","published_at":"2015-03-24T08:10:26.788Z","coreid":"53ff74066667574837352467"}
+
+event: Uptime
+data: {"data":"{\"Ah\":-12.238,\"V\":83.210}","ttl":"60","published_at":"2015-03-24T08:10:26.843Z","coreid":"48ff68065067555027472287"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:26.866Z","coreid":"54ff70066678574926410667"}
+
+event: reading-humidity:0
+data: {"data":"68.2","ttl":"60","published_at":"2015-03-24T08:10:26.996Z","coreid":"54ff6f066672524829221167"}
+
+event: enviro
+data: {"data":"{\"t\": 69, \"h\": 23, \"w\": 41, \"snd\": 7}","ttl":"60","published_at":"2015-03-24T08:10:27.017Z","coreid":"53ff73066667574841180967"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:10:27.022Z","coreid":"53ff73066667574841180967"}
+
+event: emergence-event
+data: {"data":"1000","ttl":"60","published_at":"2015-03-24T08:10:27.035Z","coreid":"53ff70066667574849402167"}
+
+event: yahi
+data: {"data":"{ lpo: 0, r: 0.000000, c: 0.620000 }","ttl":"60","published_at":"2015-03-24T08:10:27.151Z","coreid":"53ff72065075535133531587"}
+
+event: temperature00
+data: {"data":"22.19","ttl":"60","published_at":"2015-03-24T08:10:27.195Z","coreid":"51ff6b065067545732310187"}
+
+event: sensors
+data: {"data":"1","ttl":"60","published_at":"2015-03-24T08:10:27.199Z","coreid":"51ff6b065067545732310187"}
+
+event: Data3
+data: {"data":"{\"T\":73.65,\"A\":469.48,\"P\":29.42}","ttl":"60","published_at":"2015-03-24T08:10:27.236Z","coreid":"55ff68065075555337511687"}
+
+event: temperature3
+data: {"data":"20","ttl":"60","published_at":"2015-03-24T08:10:27.328Z","coreid":"53ff6d065075535110201787"}
+
+event: Uptime
+data: {"data":"5:11:53","ttl":"60","published_at":"2015-03-24T08:10:27.478Z","coreid":"54ff6e066672524839110167"}
+
+event: analogVal
+data: {"data":"30","ttl":"60","published_at":"2015-03-24T08:10:27.579Z","coreid":"53ff72065067544812351287"}
+
+event: ax
+data: {"data":"202","ttl":"60","published_at":"2015-03-24T08:10:27.580Z","coreid":"53ff72065067544812351287"}
+
+event: yahi
+data: {"data":"{ lpo: 0, r: 0.000000, c: 0.620000 }","ttl":"60","published_at":"2015-03-24T08:10:27.592Z","coreid":"55ff6b065075555351381887"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:27.609Z","coreid":"55ff71065075555329511687"}
+
+event: ay
+data: {"data":"172","ttl":"60","published_at":"2015-03-24T08:10:27.615Z","coreid":"53ff72065067544812351287"}
+
+event: Uptime
+data: {"data":"1:39:51","ttl":"60","published_at":"2015-03-24T08:10:27.740Z","coreid":"48ff6a065067555043401287"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:27.782Z","coreid":"53ff6e066667574836061267"}
+
+event: analogVal
+data: {"data":"10","ttl":"60","published_at":"2015-03-24T08:10:27.859Z","coreid":"53ff6d065067544855351287"}
+
+event: ax
+data: {"data":"184","ttl":"60","published_at":"2015-03-24T08:10:27.859Z","coreid":"53ff6d065067544855351287"}
+
+event: ay
+data: {"data":"171","ttl":"60","published_at":"2015-03-24T08:10:27.883Z","coreid":"53ff6d065067544855351287"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:27.910Z","coreid":"54ff70066678574926410667"}
+
+event: analogVal
+data: {"data":"28","ttl":"60","published_at":"2015-03-24T08:10:28.018Z","coreid":"48ff6e065067555048571287"}
+
+event: ax
+data: {"data":"8","ttl":"60","published_at":"2015-03-24T08:10:28.019Z","coreid":"48ff6e065067555048571287"}
+
+event: ay
+data: {"data":"181","ttl":"60","published_at":"2015-03-24T08:10:28.046Z","coreid":"48ff6e065067555048571287"}
+
+event: MotionEvent
+data: {"data":"ended","ttl":"60","published_at":"2015-03-24T08:10:28.226Z","coreid":"55ff6d065075555315531687"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:28.606Z","coreid":"55ff71065075555329511687"}
+
+event: Debug
+data: {"data":"SensorUpdate","ttl":"60","published_at":"2015-03-24T08:10:28.779Z","coreid":"51ff6c065082554925510887"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:28.817Z","coreid":"53ff6e066667574836061267"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:28.946Z","coreid":"54ff70066678574926410667"}
+
+event: analogVal
+data: {"data":"60","ttl":"60","published_at":"2015-03-24T08:10:28.979Z","coreid":"53ff6e066667574847262367"}
+
+event: ax
+data: {"data":"179","ttl":"60","published_at":"2015-03-24T08:10:28.983Z","coreid":"53ff6e066667574847262367"}
+
+event: PumpStatus
+data: {"data":"2105 59 -44","ttl":"60","published_at":"2015-03-24T08:10:29.024Z","coreid":"54ff6c066667515139181367"}
+
+event: ay
+data: {"data":"181","ttl":"60","published_at":"2015-03-24T08:10:29.031Z","coreid":"53ff6e066667574847262367"}
+
+event: Uptime
+data: {"data":"18:4:40","ttl":"60","published_at":"2015-03-24T08:10:29.105Z","coreid":"55ff70065075555341561787"}
+
+event: waterbot_state
+data: {"data":"{\"reading\": 0, \"moisture\": 1084134400, \"last_greense\": 23380887","ttl":"60","published_at":"2015-03-24T08:10:29.316Z","coreid":"53ff6e066667574823382567"}
+
+event: Measuring...
+data: {"data":"null","ttl":"60","published_at":"2015-03-24T08:10:29.447Z","coreid":"48ff6d065067555058332387"}
+
+event: SupplyVoltage
+data: {"data":"0.018470","ttl":"60","published_at":"2015-03-24T08:10:29.448Z","coreid":"48ff6d065067555058332387"}
+
+event: pDate
+data: {"data":"{\"Day\": 24, \"Month\": 3, \"Year\": 2015}","ttl":"60","published_at":"2015-03-24T08:10:29.456Z","coreid":"53ff72065075535122081687"}
+
+event: pTime
+data: {"data":"{\"Hours\": 9, \"Minutes\": 10, \"Seconds\": 29}","ttl":"60","published_at":"2015-03-24T08:10:29.456Z","coreid":"53ff72065075535122081687"}
+
+event: SupplyVRaw
+data: {"data":"2073","ttl":"60","published_at":"2015-03-24T08:10:29.540Z","coreid":"48ff6d065067555058332387"}
+
+event: pPhoto
+data: {"data":"{\"Photocell\": 1023}","ttl":"60","published_at":"2015-03-24T08:10:29.581Z","coreid":"53ff72065075535122081687"}
+
+event: pMisc
+data: {"data":"{\"Temperature\": 10.2, \"SCL\": 1, \"RSSI\": -63}","ttl":"60","published_at":"2015-03-24T08:10:29.582Z","coreid":"53ff72065075535122081687"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:29.594Z","coreid":"55ff71065075555329511687"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:10:29.595Z","coreid":"51ff6a065082554927580687"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:10:29.600Z","coreid":"51ff6a065082554927580687"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:10:29.682Z","coreid":"51ff6a065082554927580687"}
+
+event: weatherinfo
+data: {"data":"§No power - closing down","ttl":"60","published_at":"2015-03-24T08:10:29.766Z","coreid":"51ff6e065082554929081487"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:29.853Z","coreid":"53ff6e066667574836061267"}
+
+event: enviro
+data: {"data":"{\"t\": 65, \"h\": 28, \"w\": 40, \"snd\": 3}","ttl":"60","published_at":"2015-03-24T08:10:29.905Z","coreid":"53ff6a066667574850472367"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:10:29.910Z","coreid":"53ff6a066667574850472367"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:29.990Z","coreid":"54ff70066678574926410667"}
+
+event: emergence-event
+data: {"data":"0","ttl":"60","published_at":"2015-03-24T08:10:30.051Z","coreid":"53ff70066667574849402167"}
+
+event: enviro
+data: {"data":"{\"t\": 69, \"h\": 18, \"w\": 57, \"snd\": 98}","ttl":"60","published_at":"2015-03-24T08:10:30.246Z","coreid":"53ff6f066667574840462367"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:10:30.251Z","coreid":"53ff6f066667574840462367"}
+
+event: Uptime
+data: {"data":"20:41:4","ttl":"60","published_at":"2015-03-24T08:10:30.303Z","coreid":"55ff6c066678505522171367"}
+
+event: tmpinfo
+data: {"data":"Temperature: 18.25 Celsius, (Chip Name: DS18B20)","ttl":"60","published_at":"2015-03-24T08:10:30.375Z","coreid":"53ff6f066667574847392567"}
+
+event: enviro
+data: {"data":"{\"t\": 64, \"h\": 22, \"w\": 34, \"snd\": 5}","ttl":"60","published_at":"2015-03-24T08:10:30.404Z","coreid":"54ff6e066667515108441567"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:10:30.405Z","coreid":"54ff6e066667515108441567"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:10:30.511Z","coreid":"51ff6a065082554927580687"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:30.603Z","coreid":"55ff71065075555329511687"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:30.885Z","coreid":"53ff6e066667574836061267"}
+
+event: status
+data: {"data":"10001004","ttl":"60","published_at":"2015-03-24T08:10:31.005Z","coreid":"53ff75066678505560322367"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:31.032Z","coreid":"54ff70066678574926410667"}
+
+event: temperatureInfo
+data: {"data":"46.17","ttl":"60","published_at":"2015-03-24T08:10:31.230Z","coreid":"54ff6e066678574930210267"}
+
+event: Uptime
+data: {"data":"17:9:49","ttl":"60","published_at":"2015-03-24T08:10:31.375Z","coreid":"51ff6c065082554925510887"}
+
+event: BeerTemperature
+data: {"data":"61.000000","ttl":"60","published_at":"2015-03-24T08:10:31.379Z","coreid":"51ff6c065082554925510887"}
+
+event: ChamberTemperature
+data: {"data":"70.000000","ttl":"60","published_at":"2015-03-24T08:10:31.431Z","coreid":"51ff6c065082554925510887"}
+
+event: Humidity
+data: {"data":"50","ttl":"60","published_at":"2015-03-24T08:10:31.439Z","coreid":"51ff6c065082554925510887"}
+
+event: status
+data: {"data":"10012002","ttl":"60","published_at":"2015-03-24T08:10:31.467Z","coreid":"54ff72066672524838411867"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:10:31.516Z","coreid":"51ff6a065082554927580687"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:31.595Z","coreid":"55ff71065075555329511687"}
+
+event: temperature
+data: {"data":"1057423","ttl":"60","published_at":"2015-03-24T08:10:31.674Z","coreid":"55ff71066678505518151367"}
+
+event: humidity
+data: {"data":"0","ttl":"60","published_at":"2015-03-24T08:10:31.730Z","coreid":"48ff6f065067555045501287"}
+
+event: dewPoint
+data: {"data":"0","ttl":"60","published_at":"2015-03-24T08:10:31.730Z","coreid":"48ff6f065067555045501287"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:31.923Z","coreid":"53ff6e066667574836061267"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:32.074Z","coreid":"54ff70066678574926410667"}
+
+event: Uptime
+data: {"data":"5:25:25","ttl":"60","published_at":"2015-03-24T08:10:32.251Z","coreid":"53ff6d065067544832431087"}
+
+event: Analog1
+data: {"data":"0:1:2","ttl":"60","published_at":"2015-03-24T08:10:32.251Z","coreid":"53ff6d065067544832431087"}
+
+event: Analog2
+data: {"data":"3:4:5","ttl":"60","published_at":"2015-03-24T08:10:32.347Z","coreid":"53ff6d065067544832431087"}
+
+event: Analog3
+data: {"data":"6:7:8","ttl":"60","published_at":"2015-03-24T08:10:32.347Z","coreid":"53ff6d065067544832431087"}
+
+event: Data1
+data: {"data":"{\"I\":72.95,\"O\":54.05,\"H\":40.00,\"T\":59.00}","ttl":"60","published_at":"2015-03-24T08:10:32.416Z","coreid":"55ff68065075555337511687"}
+
+event: MotionEvent
+data: {"data":"detected","ttl":"60","published_at":"2015-03-24T08:10:32.423Z","coreid":"55ff6d065075555315531687"}
+
+event: Uptime
+data: {"data":"5:11:58","ttl":"60","published_at":"2015-03-24T08:10:32.486Z","coreid":"54ff6e066672524839110167"}
+
+event: temperature
+data: {"data":"{loc: 8,temp: 21.94}","ttl":"60","published_at":"2015-03-24T08:10:32.497Z","coreid":"51ff6a065067545741340187"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 62}}","ttl":"60","published_at":"2015-03-24T08:10:32.521Z","coreid":"51ff6a065082554927580687"}
+
+event: Measuring...
+data: {"data":"null","ttl":"60","published_at":"2015-03-24T08:10:32.552Z","coreid":"48ff6d065067555058332387"}
+
+event: SupplyVoltage
+data: {"data":"0.018640","ttl":"60","published_at":"2015-03-24T08:10:32.552Z","coreid":"48ff6d065067555058332387"}
+
+event: analogVal
+data: {"data":"25","ttl":"60","published_at":"2015-03-24T08:10:32.587Z","coreid":"53ff72065067544812351287"}
+
+event: ax
+data: {"data":"202","ttl":"60","published_at":"2015-03-24T08:10:32.588Z","coreid":"53ff72065067544812351287"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:32.598Z","coreid":"55ff71065075555329511687"}
+
+event: ay
+data: {"data":"171","ttl":"60","published_at":"2015-03-24T08:10:32.612Z","coreid":"53ff72065067544812351287"}
+
+event: SupplyVRaw
+data: {"data":"2092","ttl":"60","published_at":"2015-03-24T08:10:32.643Z","coreid":"48ff6d065067555058332387"}
+
+event: Message
+data: {"data":"Steps off","ttl":"60","published_at":"2015-03-24T08:10:32.705Z","coreid":"55ff6a065075555334361887"}
+
+event: weatherinfo
+data: {"data":"Factor(0)=3928|lam,Factor(1)=33742|nisser,Factor(2)=149880|lyn","ttl":"60","published_at":"2015-03-24T08:10:32.767Z","coreid":"51ff6e065082554929081487"}
+
+event: analogVal
+data: {"data":"9","ttl":"60","published_at":"2015-03-24T08:10:32.861Z","coreid":"53ff6d065067544855351287"}
+
+event: ax
+data: {"data":"184","ttl":"60","published_at":"2015-03-24T08:10:32.862Z","coreid":"53ff6d065067544855351287"}
+
+event: Uptime
+data: {"data":"{\"Hours\": 6, \"Minutes\": 42, \"Seconds\": 57}","ttl":"60","published_at":"2015-03-24T08:10:32.877Z","coreid":"53ff71066667574819422467"}
+
+event: ay
+data: {"data":"171","ttl":"60","published_at":"2015-03-24T08:10:32.887Z","coreid":"53ff6d065067544855351287"}
+
+event: tempData
+data: {"data":"{\"temp\":20.250000,\"isHeating\":1}","ttl":"60","published_at":"2015-03-24T08:10:32.952Z","coreid":"53ff6f066667574852471267"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.38 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:32.953Z","coreid":"53ff6e066667574836061267"}
+
+event: yahi-humidity
+data: {"data":"{ \"dht11\": { \"h\": 44.000000, \"t\": 34.000000 } }","ttl":"60","published_at":"2015-03-24T08:10:32.992Z","coreid":"53ff70065075535145511687"}
+
+event: analogVal
+data: {"data":"36","ttl":"60","published_at":"2015-03-24T08:10:33.024Z","coreid":"48ff6e065067555048571287"}
+
+event: ax
+data: {"data":"6","ttl":"60","published_at":"2015-03-24T08:10:33.028Z","coreid":"48ff6e065067555048571287"}
+
+event: ay
+data: {"data":"181","ttl":"60","published_at":"2015-03-24T08:10:33.065Z","coreid":"48ff6e065067555048571287"}
+
+event: emergence-event
+data: {"data":"1000","ttl":"60","published_at":"2015-03-24T08:10:33.070Z","coreid":"53ff70066667574849402167"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:33.110Z","coreid":"54ff70066678574926410667"}
+
+event: enviro
+data: {"data":"{\"t\": 69, \"h\": 23, \"w\": 42, \"snd\": 8}","ttl":"60","published_at":"2015-03-24T08:10:33.159Z","coreid":"53ff73066667574841180967"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:10:33.164Z","coreid":"53ff73066667574841180967"}
+
+event: yahi-humidity
+data: {"data":"{ \"dht22\": { \"h\": 48.700001, \"t\": 33.799999 } }","ttl":"60","published_at":"2015-03-24T08:10:33.517Z","coreid":"53ff70065075535145511687"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:10:33.533Z","coreid":"51ff6a065082554927580687"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:33.614Z","coreid":"55ff71065075555329511687"}
+
+event: myUptime
+data: {"data":"11:32:44  iCoffee_V0.3","ttl":"60","published_at":"2015-03-24T08:10:33.682Z","coreid":"48ff69065067555044212287"}
+
+event: reading-humidity:0
+data: {"data":"-31.2","ttl":"60","published_at":"2015-03-24T08:10:33.851Z","coreid":"54ff6b066678574922460167"}
+
+event: analogVal
+data: {"data":"36","ttl":"60","published_at":"2015-03-24T08:10:33.985Z","coreid":"53ff6e066667574847262367"}
+
+event: ax
+data: {"data":"179","ttl":"60","published_at":"2015-03-24T08:10:33.989Z","coreid":"53ff6e066667574847262367"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:33.990Z","coreid":"53ff6e066667574836061267"}
+
+event: ay
+data: {"data":"179","ttl":"60","published_at":"2015-03-24T08:10:34.035Z","coreid":"53ff6e066667574847262367"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:34.156Z","coreid":"54ff70066678574926410667"}
+
+event: waterbot_state
+data: {"data":"{\"reading\": 0, \"moisture\": 1084135424, \"last_greense\": 33038210","ttl":"60","published_at":"2015-03-24T08:10:34.319Z","coreid":"53ff6e066667574823382567"}
+
+event: weatherinfo
+data: {"data":"Pressure=999.77|hPa,Altitude=112.84|meters","ttl":"60","published_at":"2015-03-24T08:10:34.327Z","coreid":"53ff6f065067544849340187"}
+
+event: Temperature/Basement/Ambient
+data: {"data":"55.400002","ttl":"60","published_at":"2015-03-24T08:10:34.375Z","coreid":"48ff6e065067555033361387"}
+
+event: Data2
+data: {"data":"{\"I\":0,\"A\":49.55,\"L\":96109}","ttl":"60","published_at":"2015-03-24T08:10:34.430Z","coreid":"55ff68065075555337511687"}
+
+event: pDate
+data: {"data":"{\"Day\": 24, \"Month\": 3, \"Year\": 2015}","ttl":"60","published_at":"2015-03-24T08:10:34.466Z","coreid":"53ff72065075535122081687"}
+
+event: pTime
+data: {"data":"{\"Hours\": 9, \"Minutes\": 10, \"Seconds\": 34}","ttl":"60","published_at":"2015-03-24T08:10:34.467Z","coreid":"53ff72065075535122081687"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:10:34.532Z","coreid":"51ff6a065082554927580687"}
+
+event: pPhoto
+data: {"data":"{\"Photocell\": 1023}","ttl":"60","published_at":"2015-03-24T08:10:34.593Z","coreid":"53ff72065075535122081687"}
+
+event: pMisc
+data: {"data":"{\"Temperature\": 10.2, \"SCL\": 1, \"RSSI\": -63}","ttl":"60","published_at":"2015-03-24T08:10:34.593Z","coreid":"53ff72065075535122081687"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:34.599Z","coreid":"55ff71065075555329511687"}
+
+event: yahi
+data: {"data":"{ lpo: 39969, r: 0.133230, c: 69.834755 }","ttl":"60","published_at":"2015-03-24T08:10:34.739Z","coreid":"53ff7b065075535156261587"}
+
+event: Debug
+data: {"data":"SensorUpdate","ttl":"60","published_at":"2015-03-24T08:10:34.780Z","coreid":"51ff6c065082554925510887"}
+
+event: tempInfo
+data: {"data":"{\"temperature\":69.35}","ttl":"60","published_at":"2015-03-24T08:10:34.996Z","coreid":"53ff6c066667574856352067"}
+
+event: pointInfo
+data: {"data":"5.00","ttl":"60","published_at":"2015-03-24T08:10:34.998Z","coreid":"53ff6c066667574856352067"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:35.022Z","coreid":"53ff6e066667574836061267"}
+
+event: pwmInfo
+data: {"data":" 0.00","ttl":"60","published_at":"2015-03-24T08:10:35.137Z","coreid":"53ff6c066667574856352067"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:35.189Z","coreid":"54ff70066678574926410667"}
+
+event: Temperature/Basement/Fridge
+data: {"data":"50.224998","ttl":"60","published_at":"2015-03-24T08:10:35.411Z","coreid":"48ff6e065067555033361387"}
+
+event: here/off
+data: {"data":"54ff6c066667515112341467","ttl":"60","published_at":"2015-03-24T08:10:35.457Z","coreid":"54ff6c066667515112341467"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 62}}","ttl":"60","published_at":"2015-03-24T08:10:35.536Z","coreid":"51ff6a065082554927580687"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:35.602Z","coreid":"55ff71065075555329511687"}
+
+event: Measuring...
+data: {"data":"null","ttl":"60","published_at":"2015-03-24T08:10:35.652Z","coreid":"48ff6d065067555058332387"}
+
+event: SupplyVoltage
+data: {"data":"0.018506","ttl":"60","published_at":"2015-03-24T08:10:35.653Z","coreid":"48ff6d065067555058332387"}
+
+event: SupplyVRaw
+data: {"data":"2077","ttl":"60","published_at":"2015-03-24T08:10:35.744Z","coreid":"48ff6d065067555058332387"}
+
+event: weatherinfo
+data: {"data":"Var Q Level=57673 (High)|","ttl":"60","published_at":"2015-03-24T08:10:35.767Z","coreid":"51ff6e065082554929081487"}
+
+event: garagedoor-event
+data: {"data":"CLOSED","ttl":"60","published_at":"2015-03-24T08:10:35.982Z","coreid":"48ff6f065067555023102287"}
+
+event: tempF
+data: {"data":"37.1","ttl":"60","published_at":"2015-03-24T08:10:35.991Z","coreid":"53ff74066667574837352467"}
+
+event: enviro
+data: {"data":"{\"t\": 65, \"h\": 28, \"w\": 40, \"snd\": 4}","ttl":"60","published_at":"2015-03-24T08:10:36.049Z","coreid":"53ff6a066667574850472367"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:10:36.054Z","coreid":"53ff6a066667574850472367"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:36.058Z","coreid":"53ff6e066667574836061267"}
+
+event: emergence-event
+data: {"data":"0","ttl":"60","published_at":"2015-03-24T08:10:36.094Z","coreid":"53ff70066667574849402167"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:36.235Z","coreid":"54ff70066678574926410667"}
+
+event: Uptime
+data: {"data":"17:9:54","ttl":"60","published_at":"2015-03-24T08:10:36.378Z","coreid":"51ff6c065082554925510887"}
+
+event: BeerTemperature
+data: {"data":"61.000000","ttl":"60","published_at":"2015-03-24T08:10:36.378Z","coreid":"51ff6c065082554925510887"}
+
+event: enviro
+data: {"data":"{\"t\": 69, \"h\": 18, \"w\": 53, \"snd\": 98}","ttl":"60","published_at":"2015-03-24T08:10:36.388Z","coreid":"53ff6f066667574840462367"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:10:36.392Z","coreid":"53ff6f066667574840462367"}
+
+event: tmpinfo
+data: {"data":"57.31","ttl":"60","published_at":"2015-03-24T08:10:36.402Z","coreid":"53ff70066667574818351267"}
+
+event: ChamberTemperature
+data: {"data":"70.000000","ttl":"60","published_at":"2015-03-24T08:10:36.434Z","coreid":"51ff6c065082554925510887"}
+
+event: Humidity
+data: {"data":"50","ttl":"60","published_at":"2015-03-24T08:10:36.434Z","coreid":"51ff6c065082554925510887"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 62}}","ttl":"60","published_at":"2015-03-24T08:10:36.540Z","coreid":"51ff6a065082554927580687"}
+
+event: enviro
+data: {"data":"{\"t\": 64, \"h\": 22, \"w\": 34, \"snd\": 2}","ttl":"60","published_at":"2015-03-24T08:10:36.546Z","coreid":"54ff6e066667515108441567"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:10:36.551Z","coreid":"54ff6e066667515108441567"}
+
+event: status
+data: {"data":"100001006","ttl":"60","published_at":"2015-03-24T08:10:36.565Z","coreid":"53ff70066667574844392567"}
+
+event: Message
+data: {"data":"Steps on","ttl":"60","published_at":"2015-03-24T08:10:36.575Z","coreid":"55ff6a065075555334361887"}
+
+event: lpm
+data: {"data":"0.00","ttl":"60","published_at":"2015-03-24T08:10:36.599Z","coreid":"55ff71065075555329511687"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:36.600Z","coreid":"55ff71065075555329511687"}
+
+event: motion-xmas-shadowbox
+data: {"data":"motion","ttl":"60","published_at":"2015-03-24T08:10:36.668Z","coreid":"53ff70066667574858340967"}
+
+event: temperature
+data: {"data":"1057428","ttl":"60","published_at":"2015-03-24T08:10:36.679Z","coreid":"55ff71066678505518151367"}
+
+event: reading-waterLevel:
+data: {"data":"0.0","ttl":"60","published_at":"2015-03-24T08:10:36.837Z","coreid":"54ff6b066678574922460167"}
+
+event: weatherinfo
+data: {"data":"Temperature=23.30|°C,Humidity=29.50|%,Dew Point=4.53|°C","ttl":"60","published_at":"2015-03-24T08:10:36.854Z","coreid":"53ff6f065067544849340187"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:37.269Z","coreid":"54ff70066678574926410667"}
+
+event: Uptime
+data: {"data":"5:12:3","ttl":"60","published_at":"2015-03-24T08:10:37.486Z","coreid":"54ff6e066672524839110167"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 62}}","ttl":"60","published_at":"2015-03-24T08:10:37.545Z","coreid":"51ff6a065082554927580687"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:37.575Z","coreid":"53ff6e066667574836061267"}
+
+event: analogVal
+data: {"data":"11","ttl":"60","published_at":"2015-03-24T08:10:37.596Z","coreid":"53ff72065067544812351287"}
+
+event: ax
+data: {"data":"202","ttl":"60","published_at":"2015-03-24T08:10:37.596Z","coreid":"53ff72065067544812351287"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:37.602Z","coreid":"55ff71065075555329511687"}
+
+event: ay
+data: {"data":"173","ttl":"60","published_at":"2015-03-24T08:10:37.624Z","coreid":"53ff72065067544812351287"}
+
+event: analogVal
+data: {"data":"8","ttl":"60","published_at":"2015-03-24T08:10:37.866Z","coreid":"53ff6d065067544855351287"}
+
+event: ax
+data: {"data":"184","ttl":"60","published_at":"2015-03-24T08:10:37.866Z","coreid":"53ff6d065067544855351287"}
+
+event: ay
+data: {"data":"171","ttl":"60","published_at":"2015-03-24T08:10:37.902Z","coreid":"53ff6d065067544855351287"}
+
+event: analogVal
+data: {"data":"26","ttl":"60","published_at":"2015-03-24T08:10:38.030Z","coreid":"48ff6e065067555048571287"}
+
+event: sensorOutput
+data: {"data":"{\"c\": 1, \"d\": 0, \"e\": 23, \"h\": 30.10, \"f\": 78.08}","ttl":"4","published_at":"2015-03-24T08:10:38.030Z","coreid":"53ff6c065075535111191787"}
+
+event: ax
+data: {"data":"9","ttl":"60","published_at":"2015-03-24T08:10:38.031Z","coreid":"48ff6e065067555048571287"}
+
+event: PumpStatus
+data: {"data":"2103 59 -44","ttl":"60","published_at":"2015-03-24T08:10:38.044Z","coreid":"54ff6c066667515139181367"}
+
+event: ay
+data: {"data":"180","ttl":"60","published_at":"2015-03-24T08:10:38.058Z","coreid":"48ff6e065067555048571287"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:38.315Z","coreid":"54ff70066678574926410667"}
+
+event: sensorData
+data: {"data":"{\"tempF\": 57.9, \"humid\": 25.9}","ttl":"60","published_at":"2015-03-24T08:10:38.319Z","coreid":"54ff6a066672524835471867"}
+
+event: status
+data: {"data":"10001000","ttl":"60","published_at":"2015-03-24T08:10:38.419Z","coreid":"53ff6f066678505509292367"}
+
+event: Data3
+data: {"data":"{\"T\":73.65,\"A\":467.55,\"P\":29.42}","ttl":"60","published_at":"2015-03-24T08:10:38.452Z","coreid":"55ff68065075555337511687"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:38.475Z","coreid":"53ff6e066667574836061267"}
+
+event: temperatureInfo
+data: {"data":"46.29","ttl":"60","published_at":"2015-03-24T08:10:38.536Z","coreid":"54ff6e066678574930210267"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:10:38.552Z","coreid":"51ff6a065082554927580687"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:38.604Z","coreid":"55ff71065075555329511687"}
+
+event: yahi
+data: {"data":"{ lpo: 49339, r: 0.164463, c: 86.043037 }","ttl":"60","published_at":"2015-03-24T08:10:38.707Z","coreid":"55ff70065075555333491887"}
+
+event: Measuring...
+data: {"data":"null","ttl":"60","published_at":"2015-03-24T08:10:38.753Z","coreid":"48ff6d065067555058332387"}
+
+event: SupplyVoltage
+data: {"data":"0.018542","ttl":"60","published_at":"2015-03-24T08:10:38.754Z","coreid":"48ff6d065067555058332387"}
+
+event: weatherinfo
+data: {"data":"Kanin=33740.00|hPa,Hare=34739.00|meters","ttl":"60","published_at":"2015-03-24T08:10:38.767Z","coreid":"51ff6e065082554929081487"}
+
+event: SupplyVRaw
+data: {"data":"2081","ttl":"60","published_at":"2015-03-24T08:10:38.845Z","coreid":"48ff6d065067555058332387"}
+
+event: status
+data: {"data":"100001055","ttl":"60","published_at":"2015-03-24T08:10:38.932Z","coreid":"54ff6a066678574948530467"}
+
+event: weatherinfo
+data: {"data":"Lux=0.00|Lux","ttl":"60","published_at":"2015-03-24T08:10:38.954Z","coreid":"53ff6f065067544849340187"}
+
+event: reading-airTemperature:0
+data: {"data":"90.4","ttl":"60","published_at":"2015-03-24T08:10:38.986Z","coreid":"54ff6f066672524829221167"}
+
+event: analogVal
+data: {"data":"45","ttl":"60","published_at":"2015-03-24T08:10:38.994Z","coreid":"53ff6e066667574847262367"}
+
+event: ax
+data: {"data":"178","ttl":"60","published_at":"2015-03-24T08:10:38.998Z","coreid":"53ff6e066667574847262367"}
+
+event: ay
+data: {"data":"180","ttl":"60","published_at":"2015-03-24T08:10:39.037Z","coreid":"53ff6e066667574847262367"}
+
+event: emergence-event
+data: {"data":"1000","ttl":"60","published_at":"2015-03-24T08:10:39.115Z","coreid":"53ff70066667574849402167"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:39.160Z","coreid":"53ff6e066667574836061267"}
+
+event: enviro
+data: {"data":"{\"t\": 69, \"h\": 23, \"w\": 42, \"snd\": 6}","ttl":"60","published_at":"2015-03-24T08:10:39.304Z","coreid":"53ff73066667574841180967"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:10:39.308Z","coreid":"53ff73066667574841180967"}
+
+event: waterbot_state
+data: {"data":"{\"reading\": 0, \"moisture\": 1084126208, \"last_greense\": 12198723","ttl":"60","published_at":"2015-03-24T08:10:39.326Z","coreid":"53ff6e066667574823382567"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:39.350Z","coreid":"54ff70066678574926410667"}
+
+event: MotionEvent
+data: {"data":"ended","ttl":"60","published_at":"2015-03-24T08:10:39.396Z","coreid":"55ff6d065075555315531687"}
+
+event: pDate
+data: {"data":"{\"Day\": 24, \"Month\": 3, \"Year\": 2015}","ttl":"60","published_at":"2015-03-24T08:10:39.474Z","coreid":"53ff72065075535122081687"}
+
+event: pTime
+data: {"data":"{\"Hours\": 9, \"Minutes\": 10, \"Seconds\": 39}","ttl":"60","published_at":"2015-03-24T08:10:39.474Z","coreid":"53ff72065075535122081687"}
+
+event: message
+data: {"data":"{\"event\":\"motionChanged\",\"motion\":\"false\"}","ttl":"60","published_at":"2015-03-24T08:10:39.522Z","coreid":"53ff70066667574829152467"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:10:39.557Z","coreid":"51ff6a065082554927580687"}
+
+event: pPhoto
+data: {"data":"{\"Photocell\": 1023}","ttl":"60","published_at":"2015-03-24T08:10:39.599Z","coreid":"53ff72065075535122081687"}
+
+event: pMisc
+data: {"data":"{\"Temperature\": 10.2, \"SCL\": 1, \"RSSI\": -63}","ttl":"60","published_at":"2015-03-24T08:10:39.599Z","coreid":"53ff72065075535122081687"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:40.060Z","coreid":"55ff71065075555329511687"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:40.193Z","coreid":"53ff6e066667574836061267"}
+
+event: tmpinfo
+data: {"data":"Temperature: 18.25 Celsius, (Chip Name: DS18B20)","ttl":"60","published_at":"2015-03-24T08:10:40.376Z","coreid":"53ff6f066667574847392567"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:40.407Z","coreid":"54ff70066678574926410667"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:10:40.561Z","coreid":"51ff6a065082554927580687"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:40.610Z","coreid":"55ff71065075555329511687"}
+
+event: Debug
+data: {"data":"SensorUpdate","ttl":"60","published_at":"2015-03-24T08:10:40.785Z","coreid":"51ff6c065082554925510887"}
+
+event: weatherinfo
+data: {"data":"Sound Level=51 (Medium)|","ttl":"60","published_at":"2015-03-24T08:10:40.957Z","coreid":"53ff6f065067544849340187"}
+
+event: weatherinfo
+data: {"data":"DueMS=81100322|millis","ttl":"60","published_at":"2015-03-24T08:10:40.986Z","coreid":"51ff6e065082554929081487"}
+
+event: error
+data: {"data":"powerOff: Sending Problem - will Retry - #0,fe","ttl":"60","published_at":"2015-03-24T08:10:39.604Z","coreid":"53ff6c066667574832252067"}
+
+event: info
+data: {"data":"Buffer: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,","ttl":"60","published_at":"2015-03-24T08:10:39.607Z","coreid":"53ff6c066667574832252067"}
+
+event: error
+data: {"data":"powerOff: Sending Problem - will Retry - #0,fe","ttl":"60","published_at":"2015-03-24T08:10:40.806Z","coreid":"53ff6c066667574832252067"}
+
+event: info
+data: {"data":"Buffer: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,","ttl":"60","published_at":"2015-03-24T08:10:40.809Z","coreid":"53ff6c066667574832252067"}
+
+event: heartbeat
+data: {"data":"0","ttl":"60","published_at":"2015-03-24T08:10:41.137Z","coreid":"55ff6d065075555312270287"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.38 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:41.227Z","coreid":"53ff6e066667574836061267"}
+
+event: Uptime
+data: {"data":"17:9:59","ttl":"60","published_at":"2015-03-24T08:10:41.380Z","coreid":"51ff6c065082554925510887"}
+
+event: BeerTemperature
+data: {"data":"61.000000","ttl":"60","published_at":"2015-03-24T08:10:41.381Z","coreid":"51ff6c065082554925510887"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:41.432Z","coreid":"54ff70066678574926410667"}
+
+event: ChamberTemperature
+data: {"data":"70.000000","ttl":"60","published_at":"2015-03-24T08:10:41.438Z","coreid":"51ff6c065082554925510887"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 62}}","ttl":"60","published_at":"2015-03-24T08:10:41.606Z","coreid":"51ff6a065082554927580687"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:41.611Z","coreid":"55ff71065075555329511687"}
+
+event: yahi
+data: {"data":"{ lpo: 168383, r: 0.561277, c: 291.481232 }","ttl":"60","published_at":"2015-03-24T08:10:41.651Z","coreid":"53ff6f065075535130181587"}
+
+event: temperature
+data: {"data":"1057433","ttl":"60","published_at":"2015-03-24T08:10:41.689Z","coreid":"55ff71066678505518151367"}
+
+event: weatherinfo
+data: {"data":"@Connected to Core (4373) 81100322","ttl":"60","published_at":"2015-03-24T08:10:41.772Z","coreid":"51ff6e065082554929081487"}
+
+event: message
+data: {"data":"{\"event\":\"motionChanged\",\"motion\":\"true\"}","ttl":"60","published_at":"2015-03-24T08:10:41.798Z","coreid":"53ff70066667574829152467"}
+
+event: Measuring...
+data: {"data":"null","ttl":"60","published_at":"2015-03-24T08:10:41.857Z","coreid":"48ff6d065067555058332387"}
+
+event: SupplyVoltage
+data: {"data":"0.018631","ttl":"60","published_at":"2015-03-24T08:10:41.858Z","coreid":"48ff6d065067555058332387"}
+
+event: SupplyVRaw
+data: {"data":"2091","ttl":"60","published_at":"2015-03-24T08:10:41.951Z","coreid":"48ff6d065067555058332387"}
+
+event: error
+data: {"data":"powerOff: Sending Problem - #0,fe","ttl":"60","published_at":"2015-03-24T08:10:42.009Z","coreid":"53ff6c066667574832252067"}
+
+event: info
+data: {"data":"Buffer: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,","ttl":"60","published_at":"2015-03-24T08:10:42.010Z","coreid":"53ff6c066667574832252067"}
+
+event: emergence-event
+data: {"data":"0","ttl":"60","published_at":"2015-03-24T08:10:42.139Z","coreid":"53ff70066667574849402167"}
+
+event: enviro
+data: {"data":"{\"t\": 65, \"h\": 28, \"w\": 38, \"snd\": 4}","ttl":"60","published_at":"2015-03-24T08:10:42.187Z","coreid":"53ff6a066667574850472367"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:10:42.187Z","coreid":"53ff6a066667574850472367"}
+
+event: temperature00
+data: {"data":"22.19","ttl":"60","published_at":"2015-03-24T08:10:42.198Z","coreid":"51ff6b065067545732310187"}
+
+event: sensors
+data: {"data":"1","ttl":"60","published_at":"2015-03-24T08:10:42.202Z","coreid":"51ff6b065067545732310187"}
+
+event: Uptime
+data: {"data":"5:25:35","ttl":"60","published_at":"2015-03-24T08:10:42.256Z","coreid":"53ff6d065067544832431087"}
+
+event: Analog1
+data: {"data":"0:1:2","ttl":"60","published_at":"2015-03-24T08:10:42.256Z","coreid":"53ff6d065067544832431087"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:42.257Z","coreid":"53ff6e066667574836061267"}
+
+event: Analog2
+data: {"data":"3:4:5","ttl":"60","published_at":"2015-03-24T08:10:42.351Z","coreid":"53ff6d065067544832431087"}
+
+event: Analog3
+data: {"data":"6:7:8","ttl":"60","published_at":"2015-03-24T08:10:42.356Z","coreid":"53ff6d065067544832431087"}
+
+event: Uptime
+data: {"data":"5:12:8","ttl":"60","published_at":"2015-03-24T08:10:42.490Z","coreid":"54ff6e066672524839110167"}
+
+event: temperature
+data: {"data":"{loc: 8,temp: 21.94}","ttl":"60","published_at":"2015-03-24T08:10:42.501Z","coreid":"51ff6a065067545741340187"}
+
+event: tmpinfo
+data: {"data":"57.20","ttl":"60","published_at":"2015-03-24T08:10:42.521Z","coreid":"53ff70066667574818351267"}
+
+event: enviro
+data: {"data":"{\"t\": 69, \"h\": 18, \"w\": 52, \"snd\": 98}","ttl":"60","published_at":"2015-03-24T08:10:42.531Z","coreid":"53ff6f066667574840462367"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:10:42.536Z","coreid":"53ff6f066667574840462367"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 62}}","ttl":"60","published_at":"2015-03-24T08:10:42.574Z","coreid":"51ff6a065082554927580687"}
+
+event: analogVal
+data: {"data":"27","ttl":"60","published_at":"2015-03-24T08:10:42.601Z","coreid":"53ff72065067544812351287"}
+
+event: ax
+data: {"data":"203","ttl":"60","published_at":"2015-03-24T08:10:42.601Z","coreid":"53ff72065067544812351287"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:42.612Z","coreid":"55ff71065075555329511687"}
+
+event: ay
+data: {"data":"172","ttl":"60","published_at":"2015-03-24T08:10:42.625Z","coreid":"53ff72065067544812351287"}
+
+event: enviro
+data: {"data":"{\"t\": 64, \"h\": 22, \"w\": 41, \"snd\": 2}","ttl":"60","published_at":"2015-03-24T08:10:42.712Z","coreid":"54ff6e066667515108441567"}
+
+event: Reading
+data: {"data":"16686;0;0","ttl":"60","published_at":"2015-03-24T08:10:42.746Z","coreid":"54ff70066678574926410667"}
+
+event: Uptime
+data: {"data":"1:40:6","ttl":"60","published_at":"2015-03-24T08:10:42.745Z","coreid":"48ff6a065067555043401287"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:10:42.750Z","coreid":"54ff6e066667515108441567"}
+
+event: Uptime
+data: {"data":"{\"Ah\":-12.238,\"V\":83.200}","ttl":"60","published_at":"2015-03-24T08:10:42.842Z","coreid":"48ff68065067555027472287"}
+
+event: analogVal
+data: {"data":"25","ttl":"60","published_at":"2015-03-24T08:10:42.873Z","coreid":"53ff6d065067544855351287"}
+
+event: ax
+data: {"data":"184","ttl":"60","published_at":"2015-03-24T08:10:42.873Z","coreid":"53ff6d065067544855351287"}
+
+event: ay
+data: {"data":"171","ttl":"60","published_at":"2015-03-24T08:10:42.923Z","coreid":"53ff6d065067544855351287"}
+
+event: analogVal
+data: {"data":"28","ttl":"60","published_at":"2015-03-24T08:10:43.037Z","coreid":"48ff6e065067555048571287"}
+
+event: ax
+data: {"data":"6","ttl":"60","published_at":"2015-03-24T08:10:43.037Z","coreid":"48ff6e065067555048571287"}
+
+event: ay
+data: {"data":"180","ttl":"60","published_at":"2015-03-24T08:10:43.073Z","coreid":"48ff6e065067555048571287"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:43.291Z","coreid":"53ff6e066667574836061267"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 62}}","ttl":"60","published_at":"2015-03-24T08:10:43.578Z","coreid":"51ff6a065082554927580687"}
+
+event: MotionEvent
+data: {"data":"detected","ttl":"60","published_at":"2015-03-24T08:10:43.598Z","coreid":"55ff6d065075555315531687"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:43.614Z","coreid":"55ff71065075555329511687"}
+
+event: Data1
+data: {"data":"{\"I\":72.95,\"O\":54.05,\"H\":41.00,\"T\":57.20}","ttl":"60","published_at":"2015-03-24T08:10:43.631Z","coreid":"55ff68065075555337511687"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:43.790Z","coreid":"54ff70066678574926410667"}
+
+event: 0
+data: {"data":"undefined","ttl":"60","published_at":"2015-03-24T08:10:43.839Z","coreid":"53ff70065067544824321287"}
+
+event: analogVal
+data: {"data":"65","ttl":"60","published_at":"2015-03-24T08:10:43.995Z","coreid":"53ff6e066667574847262367"}
+
+event: ax
+data: {"data":"178","ttl":"60","published_at":"2015-03-24T08:10:44.000Z","coreid":"53ff6e066667574847262367"}
+
+event: ay
+data: {"data":"180","ttl":"60","published_at":"2015-03-24T08:10:44.049Z","coreid":"53ff6e066667574847262367"}
+
+event: Uptime
+data: {"data":"18:4:55","ttl":"60","published_at":"2015-03-24T08:10:44.107Z","coreid":"55ff70065075555341561787"}
+
+event: CoreIsBack
+data: {"data":"261","ttl":"60","published_at":"2015-03-24T08:10:44.136Z","coreid":"53ff6e066667574815451267"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:44.325Z","coreid":"53ff6e066667574836061267"}
+
+event: waterbot_state
+data: {"data":"{\"reading\": 0, \"moisture\": 1084130304, \"last_greense\": 17789805","ttl":"60","published_at":"2015-03-24T08:10:44.325Z","coreid":"53ff6e066667574823382567"}
+
+event: Newdata
+data: {"data":"{\"Temperature\" :21.60, \"Humidity\": 29.90}","ttl":"60","published_at":"2015-03-24T08:10:44.377Z","coreid":"54ff6a066667515118502367"}
+
+event: dat
+data: {"data":"{\"t\":18.40,\"h\":49.00,\"ts\":1427184647}","ttl":"60","published_at":"2015-03-24T08:10:44.484Z","coreid":"51ff6a065067545754360687"}
+
+event: yahi
+data: {"data":"{ lpo: 193735, r: 0.645783, c: 335.138824 }","ttl":"60","published_at":"2015-03-24T08:10:44.591Z","coreid":"55ff70065075555309431487"}
+
+event: F&DEvent
+data: {"data":"Flooding","ttl":"60","published_at":"2015-03-24T08:10:44.616Z","coreid":"55ff71065075555329511687"}
+
+event: weatherinfo
+data: {"data":"Flom=-3252.00|°C,Flam=-2405.00|%,Dew Flip=-3042.00|°C","ttl":"60","published_at":"2015-03-24T08:10:44.771Z","coreid":"51ff6e065082554929081487"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:44.824Z","coreid":"54ff70066678574926410667"}
+
+event: Measuring...
+data: {"data":"null","ttl":"60","published_at":"2015-03-24T08:10:44.957Z","coreid":"48ff6d065067555058332387"}
+
+event: SupplyVoltage
+data: {"data":"0.018515","ttl":"60","published_at":"2015-03-24T08:10:45.027Z","coreid":"48ff6d065067555058332387"}
+
+event: SupplyVRaw
+data: {"data":"2078","ttl":"60","published_at":"2015-03-24T08:10:45.050Z","coreid":"48ff6d065067555058332387"}
+
+event: emergence-event
+data: {"data":"1000","ttl":"60","published_at":"2015-03-24T08:10:45.159Z","coreid":"53ff70066667574849402167"}
+
+event: state
+data: {"data":"Washer 0 (0 for 173344 s) Dryer 0 (0 for 170885 s)","ttl":"60","published_at":"2015-03-24T08:10:45.187Z","coreid":"54ff6b066672524826170167"}
+
+event: Uptime
+data: {"data":"20:41:19","ttl":"60","published_at":"2015-03-24T08:10:45.321Z","coreid":"55ff6c066678505522171367"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:45.361Z","coreid":"53ff6e066667574836061267"}
+
+event: enviro
+data: {"data":"{\"t\": 69, \"h\": 23, \"w\": 42, \"snd\": 6}","ttl":"60","published_at":"2015-03-24T08:10:45.456Z","coreid":"53ff73066667574841180967"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:10:45.461Z","coreid":"53ff73066667574841180967"}
+
+event: pDate
+data: {"data":"{\"Day\": 24, \"Month\": 3, \"Year\": 2015}","ttl":"60","published_at":"2015-03-24T08:10:45.489Z","coreid":"53ff72065075535122081687"}
+
+event: pTime
+data: {"data":"{\"Hours\": 9, \"Minutes\": 10, \"Seconds\": 45}","ttl":"60","published_at":"2015-03-24T08:10:45.490Z","coreid":"53ff72065075535122081687"}
+
+event: gpsloc
+data: {"data":"0.0,0.0","ttl":"60","published_at":"2015-03-24T08:10:45.608Z","coreid":"53ff6e066667574815522567"}
+
+event: pPhoto
+data: {"data":"{\"Photocell\": 1023}","ttl":"60","published_at":"2015-03-24T08:10:45.614Z","coreid":"53ff72065075535122081687"}
+
+event: pMisc
+data: {"data":"{\"Temperature\": 10.2, \"SCL\": 1, \"RSSI\": -63}","ttl":"60","published_at":"2015-03-24T08:10:45.615Z","coreid":"53ff72065075535122081687"}
+
+event: Data2
+data: {"data":"{\"I\":0,\"A\":49.55,\"L\":96110}","ttl":"60","published_at":"2015-03-24T08:10:45.641Z","coreid":"55ff68065075555337511687"}
+
+event: temperatureInfo
+data: {"data":"46.29","ttl":"60","published_at":"2015-03-24T08:10:45.820Z","coreid":"54ff6e066678574930210267"}
+
+event: yahi
+data: {"data":"{ lpo: 73031, r: 0.243437, c: 126.997742 }","ttl":"60","published_at":"2015-03-24T08:10:45.860Z","coreid":"53ff6e065075535150161787"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:45.870Z","coreid":"54ff70066678574926410667"}
+
+event: tempInfo
+data: {"data":"{\"temperature\":69.35}","ttl":"60","published_at":"2015-03-24T08:10:46.020Z","coreid":"53ff6c066667574856352067"}
+
+event: pointInfo
+data: {"data":"5.00","ttl":"60","published_at":"2015-03-24T08:10:46.022Z","coreid":"53ff6c066667574856352067"}
+
+event: deviceOnline
+data: {"data":"0","ttl":"60","published_at":"2015-03-24T08:10:46.045Z","coreid":"53ff6a065067544853381287"}
+
+event: status
+data: {"data":"10001004","ttl":"60","published_at":"2015-03-24T08:10:46.072Z","coreid":"53ff75066678505560322367"}
+
+event: pwmInfo
+data: {"data":" 0.00","ttl":"60","published_at":"2015-03-24T08:10:46.161Z","coreid":"53ff6c066667574856352067"}
+
+event: sensorOutput
+data: {"data":"{\"c\": 10765, \"d\": 6168, \"e\": 7981, \"h\": 45.00, \"f\": 70.52}","ttl":"4","published_at":"2015-03-24T08:10:46.370Z","coreid":"53ff76065075535157431187"}
+
+event: Uptime
+data: {"data":"17:10:4","ttl":"60","published_at":"2015-03-24T08:10:46.390Z","coreid":"51ff6c065082554925510887"}
+
+event: BeerTemperature
+data: {"data":"61.000000","ttl":"60","published_at":"2015-03-24T08:10:46.394Z","coreid":"51ff6c065082554925510887"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:46.394Z","coreid":"53ff6e066667574836061267"}
+
+event: ChamberTemperature
+data: {"data":"70.000000","ttl":"60","published_at":"2015-03-24T08:10:46.446Z","coreid":"51ff6c065082554925510887"}
+
+event: Humidity
+data: {"data":"50","ttl":"60","published_at":"2015-03-24T08:10:46.450Z","coreid":"51ff6c065082554925510887"}
+
+event: status
+data: {"data":"10012002","ttl":"60","published_at":"2015-03-24T08:10:46.496Z","coreid":"54ff72066672524838411867"}
+
+event: tmpinfo
+data: {"data":"57.31","ttl":"60","published_at":"2015-03-24T08:10:46.602Z","coreid":"53ff70066667574818351267"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:46.616Z","coreid":"55ff71065075555329511687"}
+
+event: temperature
+data: {"data":"1057438","ttl":"60","published_at":"2015-03-24T08:10:46.684Z","coreid":"55ff71066678505518151367"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:46.904Z","coreid":"54ff70066678574926410667"}
+
+event: TeplotaEvent
+data: {"data":"17.2 ; 17.8 ; 23.8 ; 0.9 ; -67 ; Tue Mar 24 09:10:45 2015\n","ttl":"60","published_at":"2015-03-24T08:10:47.120Z","coreid":"53ff74065075535144111587"}
+
+event: KamnaStav
+data: {"data":"1","ttl":"60","published_at":"2015-03-24T08:10:47.121Z","coreid":"53ff74065075535144111587"}
+
+event: VentilatorStav
+data: {"data":"1","ttl":"60","published_at":"2015-03-24T08:10:47.252Z","coreid":"53ff74065075535144111587"}
+
+event: temperature
+data: {"data":"106590bf28056:24.500000:168975","ttl":"1","published_at":"2015-03-24T08:10:47.371Z","coreid":"53ff6b065075535129531587"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:47.438Z","coreid":"53ff6e066667574836061267"}
+
+event: Uptime
+data: {"data":"5:12:13","ttl":"60","published_at":"2015-03-24T08:10:47.491Z","coreid":"54ff6e066672524839110167"}
+
+event: PumpStatus
+data: {"data":"2103 39 -65","ttl":"60","published_at":"2015-03-24T08:10:47.551Z","coreid":"54ff6a066672524833581167"}
+
+event: analogVal
+data: {"data":"11","ttl":"60","published_at":"2015-03-24T08:10:47.608Z","coreid":"53ff72065067544812351287"}
+
+event: ax
+data: {"data":"202","ttl":"60","published_at":"2015-03-24T08:10:47.609Z","coreid":"53ff72065067544812351287"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:47.622Z","coreid":"55ff71065075555329511687"}
+
+event: ay
+data: {"data":"172","ttl":"60","published_at":"2015-03-24T08:10:47.633Z","coreid":"53ff72065067544812351287"}
+
+event: motion-xmas-shadowbox
+data: {"data":"motion","ttl":"60","published_at":"2015-03-24T08:10:47.683Z","coreid":"53ff70066667574858340967"}
+
+event: weatherinfo
+data: {"data":"!Sensor not responding !","ttl":"60","published_at":"2015-03-24T08:10:47.772Z","coreid":"51ff6e065082554929081487"}
+
+event: analogVal
+data: {"data":"27","ttl":"60","published_at":"2015-03-24T08:10:47.879Z","coreid":"53ff6d065067544855351287"}
+
+event: ax
+data: {"data":"183","ttl":"60","published_at":"2015-03-24T08:10:47.880Z","coreid":"53ff6d065067544855351287"}
+
+event: Uptime
+data: {"data":"{\"Hours\": 6, \"Minutes\": 43, \"Seconds\": 12}","ttl":"60","published_at":"2015-03-24T08:10:47.887Z","coreid":"53ff71066667574819422467"}
+
+event: ay
+data: {"data":"172","ttl":"60","published_at":"2015-03-24T08:10:47.916Z","coreid":"53ff6d065067544855351287"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:47.949Z","coreid":"54ff70066678574926410667"}
+
+event: yahi
+data: {"data":"{ lpo: 53654, r: 0.178847, c: 93.505013 }","ttl":"60","published_at":"2015-03-24T08:10:48.015Z","coreid":"55ff6b065075555340221787"}
+
+event: Measuring...
+data: {"data":"null","ttl":"60","published_at":"2015-03-24T08:10:48.042Z","coreid":"48ff6d065067555058332387"}
+
+event: SupplyVoltage
+data: {"data":"0.018560","ttl":"60","published_at":"2015-03-24T08:10:48.043Z","coreid":"48ff6d065067555058332387"}
+
+event: analogVal
+data: {"data":"16","ttl":"60","published_at":"2015-03-24T08:10:48.043Z","coreid":"48ff6e065067555048571287"}
+
+event: ax
+data: {"data":"7","ttl":"60","published_at":"2015-03-24T08:10:48.044Z","coreid":"48ff6e065067555048571287"}
+
+event: sensorOutput
+data: {"data":"{\"c\": 3303, \"d\": -891, \"e\": 3542, \"h\": 32.30, \"f\": 77.90}","ttl":"4","published_at":"2015-03-24T08:10:48.059Z","coreid":"54ff6f066678574928501067"}
+
+event: ay
+data: {"data":"181","ttl":"60","published_at":"2015-03-24T08:10:48.077Z","coreid":"48ff6e065067555048571287"}
+
+event: SupplyVRaw
+data: {"data":"2083","ttl":"60","published_at":"2015-03-24T08:10:48.136Z","coreid":"48ff6d065067555058332387"}
+
+event: emergence-event
+data: {"data":"0","ttl":"60","published_at":"2015-03-24T08:10:48.182Z","coreid":"53ff70066667574849402167"}
+
+event: enviro
+data: {"data":"{\"t\": 65, \"h\": 28, \"w\": 38, \"snd\": 4}","ttl":"60","published_at":"2015-03-24T08:10:48.331Z","coreid":"53ff6a066667574850472367"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:10:48.335Z","coreid":"53ff6a066667574850472367"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:48.463Z","coreid":"53ff6e066667574836061267"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:48.617Z","coreid":"55ff71065075555329511687"}
+
+event: enviro
+data: {"data":"{\"t\": 69, \"h\": 18, \"w\": 56, \"snd\": 98}","ttl":"60","published_at":"2015-03-24T08:10:48.673Z","coreid":"53ff6f066667574840462367"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:10:48.678Z","coreid":"53ff6f066667574840462367"}
+
+event: myUptime
+data: {"data":"11:32:59  iCoffee_V0.3","ttl":"60","published_at":"2015-03-24T08:10:48.686Z","coreid":"48ff69065067555044212287"}
+
+event: enviro
+data: {"data":"{\"t\": 64, \"h\": 22, \"w\": 41, \"snd\": 4}","ttl":"60","published_at":"2015-03-24T08:10:48.841Z","coreid":"54ff6e066667515108441567"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:10:48.842Z","coreid":"54ff6e066667515108441567"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:48.989Z","coreid":"54ff70066678574926410667"}
+
+event: analogVal
+data: {"data":"59","ttl":"60","published_at":"2015-03-24T08:10:49.003Z","coreid":"53ff6e066667574847262367"}
+
+event: ax
+data: {"data":"179","ttl":"60","published_at":"2015-03-24T08:10:49.012Z","coreid":"53ff6e066667574847262367"}
+
+event: ay
+data: {"data":"179","ttl":"60","published_at":"2015-03-24T08:10:49.055Z","coreid":"53ff6e066667574847262367"}
+
+event: waterbot_state
+data: {"data":"{\"reading\": 0, \"moisture\": 1084132352, \"last_greense\": 20585346","ttl":"60","published_at":"2015-03-24T08:10:49.329Z","coreid":"53ff6e066667574823382567"}
+
+event: BED
+data: {"data":"1","ttl":"60","published_at":"2015-03-24T08:10:49.494Z","coreid":"51ff69065067545751550287"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:49.497Z","coreid":"53ff6e066667574836061267"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 62}}","ttl":"60","published_at":"2015-03-24T08:10:49.616Z","coreid":"51ff6a065082554927580687"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:49.619Z","coreid":"55ff71065075555329511687"}
+
+event: Data3
+data: {"data":"{\"T\":73.64,\"A\":469.48,\"P\":29.42}","ttl":"60","published_at":"2015-03-24T08:10:49.663Z","coreid":"55ff68065075555337511687"}
+
+event: sensorOutput
+data: {"data":"{\"c\": 1, \"d\": 0, \"e\": 3, \"h\": 31.80, \"f\": 77.36}","ttl":"4","published_at":"2015-03-24T08:10:49.761Z","coreid":"55ff69065075555344131787"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:50.033Z","coreid":"54ff70066678574926410667"}
+
+event: sensorOutput
+data: {"data":"{\"c\": 1, \"d\": 0, \"e\": 21, \"h\": 37.70, \"f\": 71.42}","ttl":"4","published_at":"2015-03-24T08:10:50.134Z","coreid":"53ff6b066667574854472367"}
+
+event: tmpinfo
+data: {"data":"Temperature: 18.25 Celsius, (Chip Name: DS18B20)","ttl":"60","published_at":"2015-03-24T08:10:50.385Z","coreid":"53ff6f066667574847392567"}
+
+event: pDate
+data: {"data":"{\"Day\": 24, \"Month\": 3, \"Year\": 2015}","ttl":"60","published_at":"2015-03-24T08:10:50.498Z","coreid":"53ff72065075535122081687"}
+
+event: pTime
+data: {"data":"{\"Hours\": 9, \"Minutes\": 10, \"Seconds\": 50}","ttl":"60","published_at":"2015-03-24T08:10:50.498Z","coreid":"53ff72065075535122081687"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.38 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:50.532Z","coreid":"53ff6e066667574836061267"}
+
+event: tempData
+data: {"data":"{\"temp\":20.250000,\"isHeating\":1}","ttl":"60","published_at":"2015-03-24T08:10:50.588Z","coreid":"53ff6f066667574852471267"}
+
+event: MotionEvent
+data: {"data":"ended","ttl":"60","published_at":"2015-03-24T08:10:50.596Z","coreid":"55ff6d065075555315531687"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:10:50.615Z","coreid":"51ff6a065082554927580687"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:50.617Z","coreid":"55ff71065075555329511687"}
+
+event: pPhoto
+data: {"data":"{\"Photocell\": 1023}","ttl":"60","published_at":"2015-03-24T08:10:50.622Z","coreid":"53ff72065075535122081687"}
+
+event: pMisc
+data: {"data":"{\"Temperature\": 10.2, \"SCL\": 1, \"RSSI\": -63}","ttl":"60","published_at":"2015-03-24T08:10:50.626Z","coreid":"53ff72065075535122081687"}
+
+event: weatherinfo
+data: {"data":"Grain=57680.00|Lux","ttl":"60","published_at":"2015-03-24T08:10:50.772Z","coreid":"51ff6e065082554929081487"}
+
+event: sensorOutput
+data: {"data":"{\"c\": 96, \"d\": 95, \"e\": 42, \"h\": 46.40, \"f\": 69.08}","ttl":"4","published_at":"2015-03-24T08:10:50.775Z","coreid":"53ff73066667574843281667"}
+
+event: tmpInfo
+data: {"data":"21.688","ttl":"60","published_at":"2015-03-24T08:10:50.810Z","coreid":"48ff6a065067555029101587"}
+
+event: lightlevel
+data: {"data":"602","ttl":"60","published_at":"2015-03-24T08:10:50.812Z","coreid":"48ff6a065067555029101587"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:51.069Z","coreid":"54ff70066678574926410667"}
+
+event: Measuring...
+data: {"data":"null","ttl":"60","published_at":"2015-03-24T08:10:51.145Z","coreid":"48ff6d065067555058332387"}
+
+event: SupplyVoltage
+data: {"data":"0.018524","ttl":"60","published_at":"2015-03-24T08:10:51.145Z","coreid":"48ff6d065067555058332387"}
+
+event: emergence-event
+data: {"data":"1000","ttl":"60","published_at":"2015-03-24T08:10:51.201Z","coreid":"53ff70066667574849402167"}
+
+event: SupplyVRaw
+data: {"data":"2079","ttl":"60","published_at":"2015-03-24T08:10:51.237Z","coreid":"48ff6d065067555058332387"}
+
+event: Uptime
+data: {"data":"17:10:9","ttl":"60","published_at":"2015-03-24T08:10:51.389Z","coreid":"51ff6c065082554925510887"}
+
+event: BeerTemperature
+data: {"data":"61.000000","ttl":"60","published_at":"2015-03-24T08:10:51.389Z","coreid":"51ff6c065082554925510887"}
+
+event: ChamberTemperature
+data: {"data":"70.000000","ttl":"60","published_at":"2015-03-24T08:10:51.445Z","coreid":"51ff6c065082554925510887"}
+
+event: Humidity
+data: {"data":"50","ttl":"60","published_at":"2015-03-24T08:10:51.445Z","coreid":"51ff6c065082554925510887"}
+
+event: status
+data: {"data":"100001006","ttl":"60","published_at":"2015-03-24T08:10:51.561Z","coreid":"53ff70066667574844392567"}
+
+event: Temperature
+data: {"data":"-1680228965","ttl":"60","published_at":"2015-03-24T08:10:51.592Z","coreid":"51ff6a065082554956450887"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:51.621Z","coreid":"55ff71065075555329511687"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:10:51.626Z","coreid":"51ff6a065082554927580687"}
+
+event: temperature
+data: {"data":"1057443","ttl":"60","published_at":"2015-03-24T08:10:51.682Z","coreid":"55ff71066678505518151367"}
+
+event: weatherinfo
+data: {"data":"102|10|-54|20|8|0|-3|6913|8|8|","ttl":"60","published_at":"2015-03-24T08:10:51.713Z","coreid":"54ff6e066672524830061267"}
+
+event: pressure
+data: {"data":"980.6399","ttl":"60","published_at":"2015-03-24T08:10:51.767Z","coreid":"48ff6f065067555045501287"}
+
+event: pressureRel
+data: {"data":"1014.782","ttl":"60","published_at":"2015-03-24T08:10:51.771Z","coreid":"48ff6f065067555045501287"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:51.975Z","coreid":"53ff6e066667574836061267"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:52.113Z","coreid":"54ff70066678574926410667"}
+
+event: 20
+data: {"data":"undefined","ttl":"60","published_at":"2015-03-24T08:10:52.130Z","coreid":"53ff6f065075535153431187"}
+
+event: enviro
+data: {"data":"{\"t\": 69, \"h\": 23, \"w\": 47, \"snd\": 7}","ttl":"60","published_at":"2015-03-24T08:10:52.154Z","coreid":"53ff73066667574841180967"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:10:52.154Z","coreid":"53ff73066667574841180967"}
+
+event: Uptime
+data: {"data":"5:25:45","ttl":"60","published_at":"2015-03-24T08:10:52.257Z","coreid":"53ff6d065067544832431087"}
+
+event: Analog1
+data: {"data":"0:1:2","ttl":"60","published_at":"2015-03-24T08:10:52.258Z","coreid":"53ff6d065067544832431087"}
+
+event: Analog2
+data: {"data":"3:4:5","ttl":"60","published_at":"2015-03-24T08:10:52.353Z","coreid":"53ff6d065067544832431087"}
+
+event: Analog3
+data: {"data":"6:7:8","ttl":"60","published_at":"2015-03-24T08:10:52.354Z","coreid":"53ff6d065067544832431087"}
+
+event: Uptime
+data: {"data":"5:12:18","ttl":"60","published_at":"2015-03-24T08:10:52.495Z","coreid":"54ff6e066672524839110167"}
+
+event: temperature
+data: {"data":"{loc: 8,temp: 21.88}","ttl":"60","published_at":"2015-03-24T08:10:52.506Z","coreid":"51ff6a065067545741340187"}
+
+event: sensorOutput
+data: {"data":"{\"c\": 1, \"d\": 0, \"e\": 24, \"h\": 27.00, \"f\": 84.02}","ttl":"4","published_at":"2015-03-24T08:10:52.584Z","coreid":"53ff72066667574818432167"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.38 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:52.601Z","coreid":"53ff6e066667574836061267"}
+
+event: analogVal
+data: {"data":"31","ttl":"60","published_at":"2015-03-24T08:10:52.613Z","coreid":"53ff72065067544812351287"}
+
+event: ax
+data: {"data":"203","ttl":"60","published_at":"2015-03-24T08:10:52.614Z","coreid":"53ff72065067544812351287"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:52.624Z","coreid":"55ff71065075555329511687"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 62}}","ttl":"60","published_at":"2015-03-24T08:10:52.625Z","coreid":"51ff6a065082554927580687"}
+
+event: ay
+data: {"data":"172","ttl":"60","published_at":"2015-03-24T08:10:52.649Z","coreid":"53ff72065067544812351287"}
+
+event: tmpinfo
+data: {"data":"57.20","ttl":"60","published_at":"2015-03-24T08:10:52.717Z","coreid":"53ff70066667574818351267"}
+
+event: Debug
+data: {"data":"SensorUpdate","ttl":"60","published_at":"2015-03-24T08:10:52.789Z","coreid":"51ff6c065082554925510887"}
+
+event: reading-ambientLight:0
+data: {"data":"0.0","ttl":"60","published_at":"2015-03-24T08:10:52.840Z","coreid":"54ff6b066678574922460167"}
+
+event: analogVal
+data: {"data":"26","ttl":"60","published_at":"2015-03-24T08:10:52.885Z","coreid":"53ff6d065067544855351287"}
+
+event: ax
+data: {"data":"184","ttl":"60","published_at":"2015-03-24T08:10:52.886Z","coreid":"53ff6d065067544855351287"}
+
+event: ay
+data: {"data":"170","ttl":"60","published_at":"2015-03-24T08:10:52.913Z","coreid":"53ff6d065067544855351287"}
+
+event: reading-ambientLight:1
+data: {"data":"0.0","ttl":"60","published_at":"2015-03-24T08:10:52.950Z","coreid":"54ff6b066678574922460167"}
+
+event: analogVal
+data: {"data":"26","ttl":"60","published_at":"2015-03-24T08:10:53.049Z","coreid":"48ff6e065067555048571287"}
+
+event: ax
+data: {"data":"7","ttl":"60","published_at":"2015-03-24T08:10:53.050Z","coreid":"48ff6e065067555048571287"}
+
+event: reading-ambientLight:2
+data: {"data":"0.0","ttl":"60","published_at":"2015-03-24T08:10:53.056Z","coreid":"54ff6b066678574922460167"}
+
+event: ay
+data: {"data":"179","ttl":"60","published_at":"2015-03-24T08:10:53.079Z","coreid":"48ff6e065067555048571287"}
+
+event: temperatureInfo
+data: {"data":"46.29","ttl":"60","published_at":"2015-03-24T08:10:53.116Z","coreid":"54ff6e066678574930210267"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:53.161Z","coreid":"54ff70066678574926410667"}
+
+event: Message
+data: {"data":"Lower PIR triggered","ttl":"60","published_at":"2015-03-24T08:10:53.209Z","coreid":"55ff6a065075555334361887"}
+
+event: Message
+data: {"data":"Steps on","ttl":"60","published_at":"2015-03-24T08:10:53.440Z","coreid":"55ff6a065075555334361887"}
+
+event: status
+data: {"data":"10001000","ttl":"60","published_at":"2015-03-24T08:10:53.482Z","coreid":"53ff6f066678505509292367"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:53.621Z","coreid":"55ff71065075555329511687"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 62}}","ttl":"60","published_at":"2015-03-24T08:10:53.631Z","coreid":"51ff6a065082554927580687"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:53.638Z","coreid":"53ff6e066667574836061267"}
+
+event: weatherinfo
+data: {"data":"§No power - closing down","ttl":"60","published_at":"2015-03-24T08:10:53.775Z","coreid":"51ff6e065082554929081487"}
+
+event: analogVal
+data: {"data":"50","ttl":"60","published_at":"2015-03-24T08:10:54.011Z","coreid":"53ff6e066667574847262367"}
+
+event: ax
+data: {"data":"179","ttl":"60","published_at":"2015-03-24T08:10:54.016Z","coreid":"53ff6e066667574847262367"}
+
+event: ay
+data: {"data":"180","ttl":"60","published_at":"2015-03-24T08:10:54.061Z","coreid":"53ff6e066667574847262367"}
+
+event: status
+data: {"data":"100001055","ttl":"60","published_at":"2015-03-24T08:10:54.127Z","coreid":"54ff6a066678574948530467"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:54.194Z","coreid":"54ff70066678574926410667"}
+
+event: emergence-event
+data: {"data":"0","ttl":"60","published_at":"2015-03-24T08:10:54.220Z","coreid":"53ff70066667574849402167"}
+
+event: Measuring...
+data: {"data":"null","ttl":"60","published_at":"2015-03-24T08:10:54.249Z","coreid":"48ff6d065067555058332387"}
+
+event: SupplyVoltage
+data: {"data":"0.018542","ttl":"60","published_at":"2015-03-24T08:10:54.250Z","coreid":"48ff6d065067555058332387"}
+
+event: waterbot_state
+data: {"data":"{\"reading\": 0, \"moisture\": 1084147712, \"last_greense\": 20077066","ttl":"60","published_at":"2015-03-24T08:10:54.331Z","coreid":"53ff6e066667574823382567"}
+
+event: SupplyVRaw
+data: {"data":"2081","ttl":"60","published_at":"2015-03-24T08:10:54.341Z","coreid":"48ff6d065067555058332387"}
+
+event: enviro
+data: {"data":"{\"t\": 65, \"h\": 28, \"w\": 35, \"snd\": 3}","ttl":"60","published_at":"2015-03-24T08:10:54.472Z","coreid":"53ff6a066667574850472367"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:10:54.477Z","coreid":"53ff6a066667574850472367"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:54.622Z","coreid":"55ff71065075555329511687"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 62}}","ttl":"60","published_at":"2015-03-24T08:10:54.635Z","coreid":"51ff6a065082554927580687"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:54.670Z","coreid":"53ff6e066667574836061267"}
+
+event: MotionEvent
+data: {"data":"detected","ttl":"60","published_at":"2015-03-24T08:10:54.808Z","coreid":"55ff6d065075555315531687"}
+
+event: enviro
+data: {"data":"{\"t\": 69, \"h\": 18, \"w\": 56, \"snd\": 98}","ttl":"60","published_at":"2015-03-24T08:10:54.817Z","coreid":"53ff6f066667574840462367"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:10:54.823Z","coreid":"53ff6f066667574840462367"}
+
+event: Data1
+data: {"data":"{\"I\":72.95,\"O\":54.05,\"H\":40.00,\"T\":59.00}","ttl":"60","published_at":"2015-03-24T08:10:54.847Z","coreid":"55ff68065075555337511687"}
+
+event: reading-ambientLight:0
+data: {"data":"0.0","ttl":"60","published_at":"2015-03-24T08:10:54.985Z","coreid":"54ff6f066672524829221167"}
+
+event: enviro
+data: {"data":"{\"t\": 64, \"h\": 22, \"w\": 39, \"snd\": 2}","ttl":"60","published_at":"2015-03-24T08:10:54.992Z","coreid":"54ff6e066667515108441567"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:10:54.997Z","coreid":"54ff6e066667515108441567"}
+
+event: PumpStatus
+data: {"data":"2067 0 -44","ttl":"60","published_at":"2015-03-24T08:10:55.136Z","coreid":"54ff6c066667515139181367"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:55.228Z","coreid":"54ff70066678574926410667"}
+
+event: temperature1
+data: {"data":"21","ttl":"60","published_at":"2015-03-24T08:10:55.327Z","coreid":"53ff6d065075535110201787"}
+
+event: here/off
+data: {"data":"54ff6c066667515112341467","ttl":"60","published_at":"2015-03-24T08:10:55.463Z","coreid":"54ff6c066667515112341467"}
+
+event: pDate
+data: {"data":"{\"Day\": 24, \"Month\": 3, \"Year\": 2015}","ttl":"60","published_at":"2015-03-24T08:10:55.504Z","coreid":"53ff72065075535122081687"}
+
+event: pTime
+data: {"data":"{\"Hours\": 9, \"Minutes\": 10, \"Seconds\": 55}","ttl":"60","published_at":"2015-03-24T08:10:55.505Z","coreid":"53ff72065075535122081687"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:55.628Z","coreid":"55ff71065075555329511687"}
+
+event: pPhoto
+data: {"data":"{\"Photocell\": 1023}","ttl":"60","published_at":"2015-03-24T08:10:55.632Z","coreid":"53ff72065075535122081687"}
+
+event: pMisc
+data: {"data":"{\"Temperature\": 10.2, \"SCL\": 1, \"RSSI\": -63}","ttl":"60","published_at":"2015-03-24T08:10:55.632Z","coreid":"53ff72065075535122081687"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:55.702Z","coreid":"53ff6e066667574836061267"}
+
+event: PumpStatus
+data: {"data":"2099 59 -44","ttl":"60","published_at":"2015-03-24T08:10:56.107Z","coreid":"54ff6c066667515139181367"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:56.274Z","coreid":"54ff70066678574926410667"}
+
+event: temperature2
+data: {"data":"20","ttl":"60","published_at":"2015-03-24T08:10:56.329Z","coreid":"53ff6d065075535110201787"}
+
+event: Uptime
+data: {"data":"17:10:14","ttl":"60","published_at":"2015-03-24T08:10:56.393Z","coreid":"51ff6c065082554925510887"}
+
+event: BeerTemperature
+data: {"data":"61.000000","ttl":"60","published_at":"2015-03-24T08:10:56.393Z","coreid":"51ff6c065082554925510887"}
+
+event: ChamberTemperature
+data: {"data":"70.000000","ttl":"60","published_at":"2015-03-24T08:10:56.454Z","coreid":"51ff6c065082554925510887"}
+
+event: Humidity
+data: {"data":"50","ttl":"60","published_at":"2015-03-24T08:10:56.455Z","coreid":"51ff6c065082554925510887"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:56.623Z","coreid":"55ff71065075555329511687"}
+
+event: temperature
+data: {"data":"1057448","ttl":"60","published_at":"2015-03-24T08:10:56.693Z","coreid":"55ff71066678505518151367"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:56.738Z","coreid":"53ff6e066667574836061267"}
+
+event: weatherinfo
+data: {"data":"Factor(0)=3929|lam,Factor(1)=33752|nisser,Factor(2)=149905|lyn","ttl":"60","published_at":"2015-03-24T08:10:56.776Z","coreid":"51ff6e065082554929081487"}
+
+event: tmpinfo
+data: {"data":"57.31","ttl":"60","published_at":"2015-03-24T08:10:56.794Z","coreid":"53ff70066667574818351267"}
+
+event: Data2
+data: {"data":"{\"I\":0,\"A\":49.55,\"L\":96111}","ttl":"60","published_at":"2015-03-24T08:10:56.856Z","coreid":"55ff68065075555337511687"}
+
+event: tempInfo
+data: {"data":"{\"temperature\":69.35}","ttl":"60","published_at":"2015-03-24T08:10:57.046Z","coreid":"53ff6c066667574856352067"}
+
+event: pointInfo
+data: {"data":"5.00","ttl":"60","published_at":"2015-03-24T08:10:57.048Z","coreid":"53ff6c066667574856352067"}
+
+event: pwmInfo
+data: {"data":" 0.00","ttl":"60","published_at":"2015-03-24T08:10:57.188Z","coreid":"53ff6c066667574856352067"}
+
+event: temperature00
+data: {"data":"22.19","ttl":"60","published_at":"2015-03-24T08:10:57.203Z","coreid":"51ff6b065067545732310187"}
+
+event: sensors
+data: {"data":"1","ttl":"60","published_at":"2015-03-24T08:10:57.207Z","coreid":"51ff6b065067545732310187"}
+
+event: emergence-event
+data: {"data":"1000","ttl":"60","published_at":"2015-03-24T08:10:57.241Z","coreid":"53ff70066667574849402167"}
+
+event: yahi
+data: {"data":"{ lpo: 0, r: 0.000000, c: 0.620000 }","ttl":"60","published_at":"2015-03-24T08:10:57.299Z","coreid":"55ff6d065075555312471787"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:57.308Z","coreid":"54ff70066678574926410667"}
+
+event: temperature3
+data: {"data":"20","ttl":"60","published_at":"2015-03-24T08:10:57.329Z","coreid":"53ff6d065075535110201787"}
+
+event: Measuring...
+data: {"data":"null","ttl":"60","published_at":"2015-03-24T08:10:57.340Z","coreid":"48ff6d065067555058332387"}
+
+event: SupplyVoltage
+data: {"data":"0.018515","ttl":"60","published_at":"2015-03-24T08:10:57.340Z","coreid":"48ff6d065067555058332387"}
+
+event: SupplyVRaw
+data: {"data":"2078","ttl":"60","published_at":"2015-03-24T08:10:57.433Z","coreid":"48ff6d065067555058332387"}
+
+event: Uptime
+data: {"data":"5:12:23","ttl":"60","published_at":"2015-03-24T08:10:57.502Z","coreid":"54ff6e066672524839110167"}
+
+event: analogVal
+data: {"data":"40","ttl":"60","published_at":"2015-03-24T08:10:57.620Z","coreid":"53ff72065067544812351287"}
+
+event: ax
+data: {"data":"203","ttl":"60","published_at":"2015-03-24T08:10:57.620Z","coreid":"53ff72065067544812351287"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:57.632Z","coreid":"55ff71065075555329511687"}
+
+event: ay
+data: {"data":"172","ttl":"60","published_at":"2015-03-24T08:10:57.650Z","coreid":"53ff72065067544812351287"}
+
+event: motion-xmas-shadowbox
+data: {"data":"motion","ttl":"60","published_at":"2015-03-24T08:10:57.704Z","coreid":"53ff70066667574858340967"}
+
+event: enviro
+data: {"data":"{\"t\": 69, \"h\": 23, \"w\": 42, \"snd\": 8}","ttl":"60","published_at":"2015-03-24T08:10:57.743Z","coreid":"53ff73066667574841180967"}
+
+event: Uptime
+data: {"data":"1:40:21","ttl":"60","published_at":"2015-03-24T08:10:57.747Z","coreid":"48ff6a065067555043401287"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:10:57.748Z","coreid":"53ff73066667574841180967"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:57.772Z","coreid":"53ff6e066667574836061267"}
+
+event: analogVal
+data: {"data":"31","ttl":"60","published_at":"2015-03-24T08:10:57.888Z","coreid":"53ff6d065067544855351287"}
+
+event: ax
+data: {"data":"184","ttl":"60","published_at":"2015-03-24T08:10:57.888Z","coreid":"53ff6d065067544855351287"}
+
+event: ay
+data: {"data":"171","ttl":"60","published_at":"2015-03-24T08:10:57.917Z","coreid":"53ff6d065067544855351287"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:10:55.661Z","coreid":"51ff6a065082554927580687"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:10:56.668Z","coreid":"51ff6a065082554927580687"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 62}}","ttl":"60","published_at":"2015-03-24T08:10:57.669Z","coreid":"51ff6a065082554927580687"}
+
+event: analogVal
+data: {"data":"25","ttl":"60","published_at":"2015-03-24T08:10:58.054Z","coreid":"48ff6e065067555048571287"}
+
+event: ax
+data: {"data":"6","ttl":"60","published_at":"2015-03-24T08:10:58.055Z","coreid":"48ff6e065067555048571287"}
+
+event: ay
+data: {"data":"181","ttl":"60","published_at":"2015-03-24T08:10:58.080Z","coreid":"48ff6e065067555048571287"}
+
+event: message
+data: {"data":"{\"event\":\"motionChanged\",\"motion\":\"false\"}","ttl":"60","published_at":"2015-03-24T08:10:58.212Z","coreid":"53ff70066667574829152467"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:58.354Z","coreid":"54ff70066678574926410667"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:58.632Z","coreid":"55ff71065075555329511687"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:10:58.668Z","coreid":"51ff6a065082554927580687"}
+
+event: Debug
+data: {"data":"SensorUpdate","ttl":"60","published_at":"2015-03-24T08:10:58.792Z","coreid":"51ff6c065082554925510887"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:58.804Z","coreid":"53ff6e066667574836061267"}
+
+event: tmpinfo
+data: {"data":"57.20","ttl":"60","published_at":"2015-03-24T08:10:58.834Z","coreid":"53ff70066667574818351267"}
+
+event: Uptime
+data: {"data":"{\"Ah\":-12.238,\"V\":83.210}","ttl":"60","published_at":"2015-03-24T08:10:58.840Z","coreid":"48ff68065067555027472287"}
+
+event: analogVal
+data: {"data":"43","ttl":"60","published_at":"2015-03-24T08:10:59.017Z","coreid":"53ff6e066667574847262367"}
+
+event: ax
+data: {"data":"179","ttl":"60","published_at":"2015-03-24T08:10:59.023Z","coreid":"53ff6e066667574847262367"}
+
+event: ay
+data: {"data":"181","ttl":"60","published_at":"2015-03-24T08:10:59.068Z","coreid":"53ff6e066667574847262367"}
+
+event: Uptime
+data: {"data":"18:5:10","ttl":"60","published_at":"2015-03-24T08:10:59.110Z","coreid":"55ff70065075555341561787"}
+
+event: waterbot_state
+data: {"data":"{\"reading\": 0, \"moisture\": 1084149760, \"last_greense\": 22872606","ttl":"60","published_at":"2015-03-24T08:10:59.335Z","coreid":"53ff6e066667574823382567"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:10:59.390Z","coreid":"54ff70066678574926410667"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:10:59.667Z","coreid":"55ff71065075555329511687"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:10:59.669Z","coreid":"51ff6a065082554927580687"}
+
+event: fridgetemp
+data: {"data":"3.8,-17.5","ttl":"60","published_at":"2015-03-24T08:10:59.769Z","coreid":"53ff6e065075535135241787"}
+
+event: weatherinfo
+data: {"data":"Var Q Level=57690 (High)|","ttl":"60","published_at":"2015-03-24T08:10:59.776Z","coreid":"51ff6e065082554929081487"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:10:59.838Z","coreid":"53ff6e066667574836061267"}
+
+event: Temperature/28412b3f40098
+data: {"data":"7.937500","ttl":"60","published_at":"2015-03-24T08:11:00.105Z","coreid":"53ff6a065075535132171787"}
+
+event: get_msp_weather
+data: {"data":"null","ttl":"60","published_at":"2015-03-24T08:11:00.145Z","coreid":"54ff6c066678574912380167"}
+
+event: heartbeat
+data: {"data":"null","ttl":"60","published_at":"2015-03-24T08:11:00.146Z","coreid":"54ff6c066678574912380167"}
+
+event: Temp
+data: {"data":"18.00","ttl":"60","published_at":"2015-03-24T08:11:00.251Z","coreid":"50ff6b065067545646520487"}
+
+event: RH
+data: {"data":"23.00","ttl":"60","published_at":"2015-03-24T08:11:00.252Z","coreid":"50ff6b065067545646520487"}
+
+event: emergence-event
+data: {"data":"0","ttl":"60","published_at":"2015-03-24T08:11:00.266Z","coreid":"53ff70066667574849402167"}
+
+event: Uptime
+data: {"data":"20:41:34","ttl":"60","published_at":"2015-03-24T08:11:00.311Z","coreid":"55ff6c066678505522171367"}
+
+event: tmpinfo
+data: {"data":"Temperature: 18.25 Celsius, (Chip Name: DS18B20)","ttl":"60","published_at":"2015-03-24T08:11:00.383Z","coreid":"53ff6f066667574847392567"}
+
+event: dht
+data: {"data":"{\"t\":69.980003, \"h\":51.299999}","ttl":"60","published_at":"2015-03-24T08:11:00.405Z","coreid":"53ff6d066667574825571667"}
+
+event: temperatureInfo
+data: {"data":"46.29","ttl":"60","published_at":"2015-03-24T08:11:00.416Z","coreid":"54ff6e066678574930210267"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:11:00.434Z","coreid":"54ff70066678574926410667"}
+
+event: Measuring...
+data: {"data":"null","ttl":"60","published_at":"2015-03-24T08:11:00.445Z","coreid":"48ff6d065067555058332387"}
+
+event: SupplyVoltage
+data: {"data":"0.018560","ttl":"60","published_at":"2015-03-24T08:11:00.445Z","coreid":"48ff6d065067555058332387"}
+
+event: message
+data: {"data":"{\"event\":\"motionChanged\",\"motion\":\"true\"}","ttl":"60","published_at":"2015-03-24T08:11:00.489Z","coreid":"53ff70066667574829152467"}
+
+event: pDate
+data: {"data":"{\"Day\": 24, \"Month\": 3, \"Year\": 2015}","ttl":"60","published_at":"2015-03-24T08:11:00.513Z","coreid":"53ff72065075535122081687"}
+
+event: pTime
+data: {"data":"{\"Hours\": 9, \"Minutes\": 11, \"Seconds\": 0}","ttl":"60","published_at":"2015-03-24T08:11:00.513Z","coreid":"53ff72065075535122081687"}
+
+event: SupplyVRaw
+data: {"data":"2083","ttl":"60","published_at":"2015-03-24T08:11:00.540Z","coreid":"48ff6d065067555058332387"}
+
+event: enviro
+data: {"data":"{\"t\": 65, \"h\": 28, \"w\": 43, \"snd\": 3}","ttl":"60","published_at":"2015-03-24T08:11:00.578Z","coreid":"53ff6a066667574850472367"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:11:00.578Z","coreid":"53ff6a066667574850472367"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:11:00.631Z","coreid":"55ff71065075555329511687"}
+
+event: pPhoto
+data: {"data":"{\"Photocell\": 1023}","ttl":"60","published_at":"2015-03-24T08:11:00.637Z","coreid":"53ff72065075535122081687"}
+
+event: pMisc
+data: {"data":"{\"Temperature\": 10.2, \"SCL\": 1, \"RSSI\": -63}","ttl":"60","published_at":"2015-03-24T08:11:00.638Z","coreid":"53ff72065075535122081687"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 65}}","ttl":"60","published_at":"2015-03-24T08:11:00.677Z","coreid":"51ff6a065082554927580687"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:11:00.873Z","coreid":"53ff6e066667574836061267"}
+
+event: Data3
+data: {"data":"{\"T\":73.64,\"A\":467.55,\"P\":29.42}","ttl":"60","published_at":"2015-03-24T08:11:00.876Z","coreid":"55ff68065075555337511687"}
+
+event: enviro
+data: {"data":"{\"t\": 69, \"h\": 18, \"w\": 56, \"snd\": 98}","ttl":"60","published_at":"2015-03-24T08:11:00.961Z","coreid":"53ff6f066667574840462367"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:11:00.965Z","coreid":"53ff6f066667574840462367"}
+
+event: weatherinfo
+data: {"data":"DueMS=81120321|millis","ttl":"60","published_at":"2015-03-24T08:11:00.986Z","coreid":"51ff6e065082554929081487"}
+
+event: status
+data: {"data":"10001004","ttl":"60","published_at":"2015-03-24T08:11:01.132Z","coreid":"53ff75066678505560322367"}
+
+event: enviro
+data: {"data":"{\"t\": 64, \"h\": 22, \"w\": 34, \"snd\": 1}","ttl":"60","published_at":"2015-03-24T08:11:01.138Z","coreid":"54ff6e066667515108441567"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:11:01.143Z","coreid":"54ff6e066667515108441567"}
+
+event: Uptime
+data: {"data":"17:10:19","ttl":"60","published_at":"2015-03-24T08:11:01.392Z","coreid":"51ff6c065082554925510887"}
+
+event: BeerTemperature
+data: {"data":"61.000000","ttl":"60","published_at":"2015-03-24T08:11:01.392Z","coreid":"51ff6c065082554925510887"}
+
+event: ChamberTemperature
+data: {"data":"70.000000","ttl":"60","published_at":"2015-03-24T08:11:01.445Z","coreid":"51ff6c065082554925510887"}
+
+event: Humidity
+data: {"data":"50","ttl":"60","published_at":"2015-03-24T08:11:01.450Z","coreid":"51ff6c065082554925510887"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:11:01.467Z","coreid":"54ff70066678574926410667"}
+
+event: yahi
+data: {"data":"{ lpo: 0, r: 0.000000, c: 0.620000 }","ttl":"60","published_at":"2015-03-24T08:11:01.520Z","coreid":"55ff6b065075555351381887"}
+
+event: status
+data: {"data":"10012002","ttl":"60","published_at":"2015-03-24T08:11:01.573Z","coreid":"54ff72066672524838411867"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:11:01.633Z","coreid":"55ff71065075555329511687"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:11:01.678Z","coreid":"51ff6a065082554927580687"}
+
+event: MotionEvent
+data: {"data":"ended","ttl":"60","published_at":"2015-03-24T08:11:01.805Z","coreid":"55ff6d065075555315531687"}
+
+event: Temperature/Casa/laSala
+data: {"data":"70.34","ttl":"60","published_at":"2015-03-24T08:11:01.827Z","coreid":"55ff6e065075555336270287"}
+
+event: gmail_count
+data: {"data":"null","ttl":"60","published_at":"2015-03-24T08:11:01.829Z","coreid":"55ff6e065075555336270287"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:11:01.906Z","coreid":"53ff6e066667574836061267"}
+
+event: Temperature/28c83e3f4004a
+data: {"data":"9.812500","ttl":"60","published_at":"2015-03-24T08:11:02.127Z","coreid":"53ff6a065075535132171787"}
+
+event: Uptime
+data: {"data":"5:25:55","ttl":"60","published_at":"2015-03-24T08:11:02.262Z","coreid":"53ff6d065067544832431087"}
+
+event: Analog1
+data: {"data":"0:1:2","ttl":"60","published_at":"2015-03-24T08:11:02.263Z","coreid":"53ff6d065067544832431087"}
+
+event: yahi
+data: {"data":"{ lpo: 0, r: 0.000000, c: 0.620000 }","ttl":"60","published_at":"2015-03-24T08:11:02.294Z","coreid":"53ff72065075535133531587"}
+
+event: Analog2
+data: {"data":"3:4:5","ttl":"60","published_at":"2015-03-24T08:11:02.360Z","coreid":"53ff6d065067544832431087"}
+
+event: Analog3
+data: {"data":"6:7:8","ttl":"60","published_at":"2015-03-24T08:11:02.361Z","coreid":"53ff6d065067544832431087"}
+
+event: Uptime
+data: {"data":"5:12:28","ttl":"60","published_at":"2015-03-24T08:11:02.503Z","coreid":"54ff6e066672524839110167"}
+
+event: temperature
+data: {"data":"{loc: 8,temp: 21.94}","ttl":"60","published_at":"2015-03-24T08:11:02.510Z","coreid":"51ff6a065067545741340187"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:11:02.513Z","coreid":"54ff70066678574926410667"}
+
+event: analogVal
+data: {"data":"35","ttl":"60","published_at":"2015-03-24T08:11:02.625Z","coreid":"53ff72065067544812351287"}
+
+event: ax
+data: {"data":"202","ttl":"60","published_at":"2015-03-24T08:11:02.626Z","coreid":"53ff72065067544812351287"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:11:02.639Z","coreid":"55ff71065075555329511687"}
+
+event: ay
+data: {"data":"172","ttl":"60","published_at":"2015-03-24T08:11:02.651Z","coreid":"53ff72065067544812351287"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 62}}","ttl":"60","published_at":"2015-03-24T08:11:02.687Z","coreid":"51ff6a065082554927580687"}
+
+event: temphumhse
+data: {"data":"T=74 H=56% DP=57","ttl":"60","published_at":"2015-03-24T08:11:02.742Z","coreid":"55ff70065075555319281787"}
+
+event: weatherinfo
+data: {"data":"Kanin=33750.00|hPa,Hare=34749.00|meters","ttl":"60","published_at":"2015-03-24T08:11:02.776Z","coreid":"51ff6e065082554929081487"}
+
+event: reading-airTemperature:0
+data: {"data":"-50.0","ttl":"60","published_at":"2015-03-24T08:11:02.839Z","coreid":"54ff6b066678574922460167"}
+
+event: analogVal
+data: {"data":"9","ttl":"60","published_at":"2015-03-24T08:11:02.891Z","coreid":"53ff6d065067544855351287"}
+
+event: ax
+data: {"data":"182","ttl":"60","published_at":"2015-03-24T08:11:02.894Z","coreid":"53ff6d065067544855351287"}
+
+event: Uptime
+data: {"data":"{\"Hours\": 6, \"Minutes\": 43, \"Seconds\": 27}","ttl":"60","published_at":"2015-03-24T08:11:02.896Z","coreid":"53ff71066667574819422467"}
+
+event: ay
+data: {"data":"171","ttl":"60","published_at":"2015-03-24T08:11:02.919Z","coreid":"53ff6d065067544855351287"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:11:02.942Z","coreid":"53ff6e066667574836061267"}
+
+event: reading-airTemperature:1
+data: {"data":"-50.0","ttl":"60","published_at":"2015-03-24T08:11:02.952Z","coreid":"54ff6b066678574922460167"}
+
+event: yahi-humidity
+data: {"data":"{ \"dht11\": { \"h\": 45.000000, \"t\": 34.000000 } }","ttl":"60","published_at":"2015-03-24T08:11:03.045Z","coreid":"53ff70065075535145511687"}
+
+event: reading-airTemperature:2
+data: {"data":"-50.0","ttl":"60","published_at":"2015-03-24T08:11:03.055Z","coreid":"54ff6b066678574922460167"}
+
+event: analogVal
+data: {"data":"29","ttl":"60","published_at":"2015-03-24T08:11:03.063Z","coreid":"48ff6e065067555048571287"}
+
+event: ax
+data: {"data":"9","ttl":"60","published_at":"2015-03-24T08:11:03.063Z","coreid":"48ff6e065067555048571287"}
+
+event: ay
+data: {"data":"180","ttl":"60","published_at":"2015-03-24T08:11:03.096Z","coreid":"48ff6e065067555048571287"}
+
+event: emergence-event
+data: {"data":"1000","ttl":"60","published_at":"2015-03-24T08:11:03.290Z","coreid":"53ff70066667574849402167"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:11:03.548Z","coreid":"54ff70066678574926410667"}
+
+event: Measuring...
+data: {"data":"null","ttl":"60","published_at":"2015-03-24T08:11:03.553Z","coreid":"48ff6d065067555058332387"}
+
+event: SupplyVoltage
+data: {"data":"0.018542","ttl":"60","published_at":"2015-03-24T08:11:03.554Z","coreid":"48ff6d065067555058332387"}
+
+event: yahi-humidity
+data: {"data":"{ \"dht22\": { \"h\": 49.700001, \"t\": 33.900002 } }","ttl":"60","published_at":"2015-03-24T08:11:03.573Z","coreid":"53ff70065075535145511687"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:11:03.640Z","coreid":"55ff71065075555329511687"}
+
+event: SupplyVRaw
+data: {"data":"2081","ttl":"60","published_at":"2015-03-24T08:11:03.645Z","coreid":"48ff6d065067555058332387"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:11:03.688Z","coreid":"51ff6a065082554927580687"}
+
+event: myUptime
+data: {"data":"11:33:14  iCoffee_V0.3","ttl":"60","published_at":"2015-03-24T08:11:03.695Z","coreid":"48ff69065067555044212287"}
+
+event: state
+data: {"data":"Washer 0 (0 for 173363 s) Dryer 0 (0 for 170903 s)","ttl":"60","published_at":"2015-03-24T08:11:03.817Z","coreid":"54ff6b066672524826170167"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:11:03.974Z","coreid":"53ff6e066667574836061267"}
+
+event: analogVal
+data: {"data":"55","ttl":"60","published_at":"2015-03-24T08:11:04.022Z","coreid":"53ff6e066667574847262367"}
+
+event: ax
+data: {"data":"179","ttl":"60","published_at":"2015-03-24T08:11:04.064Z","coreid":"53ff6e066667574847262367"}
+
+event: ay
+data: {"data":"180","ttl":"60","published_at":"2015-03-24T08:11:04.068Z","coreid":"53ff6e066667574847262367"}
+
+event: Temperature/28446c184003d
+data: {"data":"10.812500","ttl":"60","published_at":"2015-03-24T08:11:04.151Z","coreid":"53ff6a065075535132171787"}
+
+event: fridgetemp
+data: {"data":"3.9,-17.6","ttl":"60","published_at":"2015-03-24T08:11:04.219Z","coreid":"53ff6e065075535135241787"}
+
+event: waterbot_state
+data: {"data":"{\"reading\": 0, \"moisture\": 1084163072, \"last_greense\": 19568785","ttl":"60","published_at":"2015-03-24T08:11:04.338Z","coreid":"53ff6e066667574823382567"}
+
+event: 3741
+data: {"data":"undefined","ttl":"60","published_at":"2015-03-24T08:11:04.374Z","coreid":"51ff6d065082554918470887"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:11:04.642Z","coreid":"55ff71065075555329511687"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:11:04.693Z","coreid":"51ff6a065082554927580687"}
+
+event: Debug
+data: {"data":"SensorUpdate","ttl":"60","published_at":"2015-03-24T08:11:04.792Z","coreid":"51ff6c065082554925510887"}
+
+event: Reading
+data: {"data":"16686;0;0","ttl":"60","published_at":"2015-03-24T08:11:04.864Z","coreid":"54ff70066678574926410667"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:11:05.009Z","coreid":"53ff6e066667574836061267"}
+
+event: yahi
+data: {"data":"{ lpo: 54920, r: 0.183067, c: 95.694061 }","ttl":"60","published_at":"2015-03-24T08:11:05.295Z","coreid":"55ff72065075555358351787"}
+
+event: srw/alarm/event
+data: {"data":"watchdog","ttl":"60","published_at":"2015-03-24T08:11:05.412Z","coreid":"55ff6c065075555327331787"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:11:05.644Z","coreid":"55ff71065075555329511687"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 62}}","ttl":"60","published_at":"2015-03-24T08:11:05.703Z","coreid":"51ff6a065082554927580687"}
+
+event: Message
+data: {"data":"Steps off","ttl":"60","published_at":"2015-03-24T08:11:05.715Z","coreid":"55ff6a065075555334361887"}
+
+event: weatherinfo
+data: {"data":"@Connected to Core (4374) 81120321","ttl":"60","published_at":"2015-03-24T08:11:05.777Z","coreid":"51ff6e065082554929081487"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:11:05.908Z","coreid":"54ff70066678574926410667"}
+
+event: MotionEvent
+data: {"data":"detected","ttl":"60","published_at":"2015-03-24T08:11:06.007Z","coreid":"55ff6d065075555315531687"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:11:06.043Z","coreid":"53ff6e066667574836061267"}
+
+event: Data1
+data: {"data":"{\"I\":72.95,\"O\":54.05,\"H\":40.00,\"T\":59.00}","ttl":"60","published_at":"2015-03-24T08:11:06.058Z","coreid":"55ff68065075555337511687"}
+
+event: emergence-event
+data: {"data":"0","ttl":"60","published_at":"2015-03-24T08:11:06.311Z","coreid":"53ff70066667574849402167"}
+
+event: Uptime
+data: {"data":"17:10:24","ttl":"60","published_at":"2015-03-24T08:11:06.394Z","coreid":"51ff6c065082554925510887"}
+
+event: BeerTemperature
+data: {"data":"61.000000","ttl":"60","published_at":"2015-03-24T08:11:06.395Z","coreid":"51ff6c065082554925510887"}
+
+event: ChamberTemperature
+data: {"data":"70.000000","ttl":"60","published_at":"2015-03-24T08:11:06.452Z","coreid":"51ff6c065082554925510887"}
+
+event: Humidity
+data: {"data":"50","ttl":"60","published_at":"2015-03-24T08:11:06.453Z","coreid":"51ff6c065082554925510887"}
+
+event: pDate
+data: {"data":"{\"Day\": 24, \"Month\": 3, \"Year\": 2015}","ttl":"60","published_at":"2015-03-24T08:11:06.537Z","coreid":"53ff72065075535122081687"}
+
+event: pTime
+data: {"data":"{\"Hours\": 9, \"Minutes\": 11, \"Seconds\": 6}","ttl":"60","published_at":"2015-03-24T08:11:06.537Z","coreid":"53ff72065075535122081687"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:11:06.644Z","coreid":"55ff71065075555329511687"}
+
+event: Measuring...
+data: {"data":"null","ttl":"60","published_at":"2015-03-24T08:11:06.660Z","coreid":"48ff6d065067555058332387"}
+
+event: SupplyVoltage
+data: {"data":"0.018666","ttl":"60","published_at":"2015-03-24T08:11:06.660Z","coreid":"48ff6d065067555058332387"}
+
+event: pPhoto
+data: {"data":"{\"Photocell\": 1023}","ttl":"60","published_at":"2015-03-24T08:11:06.663Z","coreid":"53ff72065075535122081687"}
+
+event: pMisc
+data: {"data":"{\"Temperature\": 10.2, \"SCL\": 1, \"RSSI\": -63}","ttl":"60","published_at":"2015-03-24T08:11:06.664Z","coreid":"53ff72065075535122081687"}
+
+event: status
+data: {"data":"100001006","ttl":"60","published_at":"2015-03-24T08:11:06.678Z","coreid":"53ff70066667574844392567"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:11:06.701Z","coreid":"51ff6a065082554927580687"}
+
+event: enviro
+data: {"data":"{\"t\": 65, \"h\": 28, \"w\": 43, \"snd\": 5}","ttl":"60","published_at":"2015-03-24T08:11:06.717Z","coreid":"53ff6a066667574850472367"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:11:06.722Z","coreid":"53ff6a066667574850472367"}
+
+event: SupplyVRaw
+data: {"data":"2095","ttl":"60","published_at":"2015-03-24T08:11:06.750Z","coreid":"48ff6d065067555058332387"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:11:06.942Z","coreid":"54ff70066678574926410667"}
+
+event: enviro
+data: {"data":"{\"t\": 69, \"h\": 18, \"w\": 51, \"snd\": 98}","ttl":"60","published_at":"2015-03-24T08:11:07.104Z","coreid":"53ff6f066667574840462367"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:11:07.109Z","coreid":"53ff6f066667574840462367"}
+
+event: enviro
+data: {"data":"{\"t\": 64, \"h\": 22, \"w\": 42, \"snd\": 2}","ttl":"60","published_at":"2015-03-24T08:11:07.283Z","coreid":"54ff6e066667515108441567"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:11:07.288Z","coreid":"54ff6e066667515108441567"}
+
+event: dat
+data: {"data":"{\"t\":18.40,\"h\":49.10,\"ts\":1427184670}","ttl":"60","published_at":"2015-03-24T08:11:07.327Z","coreid":"51ff6a065067545754360687"}
+
+event: Uptime
+data: {"data":"5:12:33","ttl":"60","published_at":"2015-03-24T08:11:07.508Z","coreid":"54ff6e066672524839110167"}
+
+event: analogVal
+data: {"data":"27","ttl":"60","published_at":"2015-03-24T08:11:07.633Z","coreid":"53ff72065067544812351287"}
+
+event: ax
+data: {"data":"203","ttl":"60","published_at":"2015-03-24T08:11:07.634Z","coreid":"53ff72065067544812351287"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:11:07.645Z","coreid":"55ff71065075555329511687"}
+
+event: ay
+data: {"data":"171","ttl":"60","published_at":"2015-03-24T08:11:07.661Z","coreid":"53ff72065067544812351287"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:11:07.705Z","coreid":"51ff6a065082554927580687"}
+
+event: temperatureInfo
+data: {"data":"46.29","ttl":"60","published_at":"2015-03-24T08:11:07.705Z","coreid":"54ff6e066678574930210267"}
+
+event: enviro
+data: {"data":"{\"t\": 69, \"h\": 23, \"w\": 42, \"snd\": 6}","ttl":"60","published_at":"2015-03-24T08:11:07.719Z","coreid":"53ff73066667574841180967"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:11:07.724Z","coreid":"53ff73066667574841180967"}
+
+event: analogVal
+data: {"data":"21","ttl":"60","published_at":"2015-03-24T08:11:07.899Z","coreid":"53ff6d065067544855351287"}
+
+event: ax
+data: {"data":"183","ttl":"60","published_at":"2015-03-24T08:11:07.900Z","coreid":"53ff6d065067544855351287"}
+
+event: ay
+data: {"data":"171","ttl":"60","published_at":"2015-03-24T08:11:07.932Z","coreid":"53ff6d065067544855351287"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:11:07.988Z","coreid":"54ff70066678574926410667"}
+
+event: sensorOutput
+data: {"data":"{\"c\": 1, \"d\": 0, \"e\": 19, \"h\": 30.20, \"f\": 78.08}","ttl":"4","published_at":"2015-03-24T08:11:08.038Z","coreid":"53ff6c065075535111191787"}
+
+event: analogVal
+data: {"data":"31","ttl":"60","published_at":"2015-03-24T08:11:08.069Z","coreid":"48ff6e065067555048571287"}
+
+event: ax
+data: {"data":"8","ttl":"60","published_at":"2015-03-24T08:11:08.070Z","coreid":"48ff6e065067555048571287"}
+
+event: tempInfo
+data: {"data":"{\"temperature\":69.35}","ttl":"60","published_at":"2015-03-24T08:11:08.069Z","coreid":"53ff6c066667574856352067"}
+
+event: pointInfo
+data: {"data":"5.00","ttl":"60","published_at":"2015-03-24T08:11:08.070Z","coreid":"53ff6c066667574856352067"}
+
+event: Data2
+data: {"data":"{\"I\":0,\"A\":49.55,\"L\":96112}","ttl":"60","published_at":"2015-03-24T08:11:08.070Z","coreid":"55ff68065075555337511687"}
+
+event: ay
+data: {"data":"180","ttl":"60","published_at":"2015-03-24T08:11:08.099Z","coreid":"48ff6e065067555048571287"}
+
+event: deviceOnline
+data: {"data":"0","ttl":"60","published_at":"2015-03-24T08:11:08.149Z","coreid":"53ff6a065067544853381287"}
+
+event: pwmInfo
+data: {"data":" 0.00","ttl":"60","published_at":"2015-03-24T08:11:08.211Z","coreid":"53ff6c066667574856352067"}
+
+event: tempData
+data: {"data":"{\"temp\":20.250000,\"isHeating\":1}","ttl":"60","published_at":"2015-03-24T08:11:08.240Z","coreid":"53ff6f066667574852471267"}
+
+event: status
+data: {"data":"10001000","ttl":"60","published_at":"2015-03-24T08:11:08.543Z","coreid":"53ff6f066678505509292367"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:11:08.647Z","coreid":"55ff71065075555329511687"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 62}}","ttl":"60","published_at":"2015-03-24T08:11:08.712Z","coreid":"51ff6a065082554927580687"}
+
+event: motion-xmas-shadowbox
+data: {"data":"motion","ttl":"60","published_at":"2015-03-24T08:11:08.714Z","coreid":"53ff70066667574858340967"}
+
+event: weatherinfo
+data: {"data":"Flom=-3253.00|°C,Flam=-2407.00|%,Dew Flip=-3043.00|°C","ttl":"60","published_at":"2015-03-24T08:11:08.777Z","coreid":"51ff6e065082554929081487"}
+
+event: PumpStatus
+data: {"data":"2101 58 -44","ttl":"60","published_at":"2015-03-24T08:11:08.815Z","coreid":"54ff6c066667515139181367"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:11:09.022Z","coreid":"54ff70066678574926410667"}
+
+event: analogVal
+data: {"data":"51","ttl":"60","published_at":"2015-03-24T08:11:09.030Z","coreid":"53ff6e066667574847262367"}
+
+event: ax
+data: {"data":"180","ttl":"60","published_at":"2015-03-24T08:11:09.035Z","coreid":"53ff6e066667574847262367"}
+
+event: ay
+data: {"data":"180","ttl":"60","published_at":"2015-03-24T08:11:09.083Z","coreid":"53ff6e066667574847262367"}
+
+event: status
+data: {"data":"100001055","ttl":"60","published_at":"2015-03-24T08:11:09.283Z","coreid":"54ff6a066678574948530467"}
+
+event: emergence-event
+data: {"data":"1000","ttl":"60","published_at":"2015-03-24T08:11:09.335Z","coreid":"53ff70066667574849402167"}
+
+event: waterbot_state
+data: {"data":"{\"reading\": 0, \"moisture\": 1084153856, \"last_greense\": 28463688","ttl":"60","published_at":"2015-03-24T08:11:09.340Z","coreid":"53ff6e066667574823382567"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:11:09.649Z","coreid":"55ff71065075555329511687"}
+
+event: Sperryfreak01
+data: {"data":"127 226 223","ttl":"60","published_at":"2015-03-24T08:11:09.648Z","coreid":"54ff6a066672524831381167"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 62}}","ttl":"60","published_at":"2015-03-24T08:11:09.722Z","coreid":"51ff6a065082554927580687"}
+
+event: Measuring...
+data: {"data":"null","ttl":"60","published_at":"2015-03-24T08:11:09.758Z","coreid":"48ff6d065067555058332387"}
+
+event: SupplyVoltage
+data: {"data":"0.018551","ttl":"60","published_at":"2015-03-24T08:11:09.759Z","coreid":"48ff6d065067555058332387"}
+
+event: SupplyVRaw
+data: {"data":"2082","ttl":"60","published_at":"2015-03-24T08:11:09.850Z","coreid":"48ff6d065067555058332387"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:11:10.067Z","coreid":"54ff70066678574926410667"}
+
+event: tmpinfo
+data: {"data":"Temperature: 18.25 Celsius, (Chip Name: DS18B20)","ttl":"60","published_at":"2015-03-24T08:11:10.408Z","coreid":"53ff6f066667574847392567"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:11:08.285Z","coreid":"53ff6e066667574836061267"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:11:09.164Z","coreid":"53ff6e066667574836061267"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:11:10.195Z","coreid":"53ff6e066667574836061267"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:11:10.652Z","coreid":"55ff71065075555329511687"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:11:10.724Z","coreid":"51ff6a065082554927580687"}
+
+event: Debug
+data: {"data":"SensorUpdate","ttl":"60","published_at":"2015-03-24T08:11:10.799Z","coreid":"51ff6c065082554925510887"}
+
+event: reading-waterLevel:
+data: {"data":"0.0","ttl":"60","published_at":"2015-03-24T08:11:10.983Z","coreid":"54ff6f066672524829221167"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:11:11.103Z","coreid":"54ff70066678574926410667"}
+
+event: yahi
+data: {"data":"{ lpo: 85816, r: 0.286053, c: 149.082535 }","ttl":"60","published_at":"2015-03-24T08:11:11.171Z","coreid":"53ff7b065075535156261587"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:11:11.225Z","coreid":"53ff6e066667574836061267"}
+
+event: Uptime
+data: {"data":"17:10:29","ttl":"60","published_at":"2015-03-24T08:11:11.395Z","coreid":"51ff6c065082554925510887"}
+
+event: BeerTemperature
+data: {"data":"61.000000","ttl":"60","published_at":"2015-03-24T08:11:11.399Z","coreid":"51ff6c065082554925510887"}
+
+event: ChamberTemperature
+data: {"data":"70.000000","ttl":"60","published_at":"2015-03-24T08:11:11.455Z","coreid":"51ff6c065082554925510887"}
+
+event: pDate
+data: {"data":"{\"Day\": 24, \"Month\": 3, \"Year\": 2015}","ttl":"60","published_at":"2015-03-24T08:11:11.542Z","coreid":"53ff72065075535122081687"}
+
+event: pTime
+data: {"data":"{\"Hours\": 9, \"Minutes\": 11, \"Seconds\": 11}","ttl":"60","published_at":"2015-03-24T08:11:11.543Z","coreid":"53ff72065075535122081687"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:11:11.650Z","coreid":"55ff71065075555329511687"}
+
+event: pPhoto
+data: {"data":"{\"Photocell\": 1023}","ttl":"60","published_at":"2015-03-24T08:11:11.668Z","coreid":"53ff72065075535122081687"}
+
+event: pMisc
+data: {"data":"{\"Temperature\": 10.2, \"SCL\": 1, \"RSSI\": -63}","ttl":"60","published_at":"2015-03-24T08:11:11.669Z","coreid":"53ff72065075535122081687"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 62}}","ttl":"60","published_at":"2015-03-24T08:11:11.729Z","coreid":"51ff6a065082554927580687"}
+
+event: weatherinfo
+data: {"data":"!Sensor not responding !","ttl":"60","published_at":"2015-03-24T08:11:11.777Z","coreid":"51ff6e065082554929081487"}
+
+event: tempOut
+data: {"data":"16.5000","ttl":"60","published_at":"2015-03-24T08:11:11.815Z","coreid":"48ff6f065067555045501287"}
+
+event: tempIn
+data: {"data":"-273","ttl":"60","published_at":"2015-03-24T08:11:11.823Z","coreid":"48ff6f065067555045501287"}
+
+event: Data3
+data: {"data":"{\"T\":73.65,\"A\":469.76,\"P\":29.42}","ttl":"60","published_at":"2015-03-24T08:11:12.091Z","coreid":"55ff68065075555337511687"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:11:12.146Z","coreid":"54ff70066678574926410667"}
+
+event: temperature00
+data: {"data":"22.19","ttl":"60","published_at":"2015-03-24T08:11:12.206Z","coreid":"51ff6b065067545732310187"}
+
+event: sensors
+data: {"data":"1","ttl":"60","published_at":"2015-03-24T08:11:12.210Z","coreid":"51ff6b065067545732310187"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:11:12.260Z","coreid":"53ff6e066667574836061267"}
+
+event: Uptime
+data: {"data":"5:26:5","ttl":"60","published_at":"2015-03-24T08:11:12.263Z","coreid":"53ff6d065067544832431087"}
+
+event: Analog1
+data: {"data":"0:1:2","ttl":"60","published_at":"2015-03-24T08:11:12.264Z","coreid":"53ff6d065067544832431087"}
+
+event: emergence-event
+data: {"data":"0","ttl":"60","published_at":"2015-03-24T08:11:12.359Z","coreid":"53ff70066667574849402167"}
+
+event: Analog2
+data: {"data":"3:4:5","ttl":"60","published_at":"2015-03-24T08:11:12.361Z","coreid":"53ff6d065067544832431087"}
+
+event: Analog3
+data: {"data":"6:7:8","ttl":"60","published_at":"2015-03-24T08:11:12.362Z","coreid":"53ff6d065067544832431087"}
+
+event: Uptime
+data: {"data":"5:12:38","ttl":"60","published_at":"2015-03-24T08:11:12.513Z","coreid":"54ff6e066672524839110167"}
+
+event: temperature
+data: {"data":"{loc: 8,temp: 21.88}","ttl":"60","published_at":"2015-03-24T08:11:12.513Z","coreid":"51ff6a065067545741340187"}
+
+event: analogVal
+data: {"data":"22","ttl":"60","published_at":"2015-03-24T08:11:12.637Z","coreid":"53ff72065067544812351287"}
+
+event: ax
+data: {"data":"202","ttl":"60","published_at":"2015-03-24T08:11:12.638Z","coreid":"53ff72065067544812351287"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:11:12.656Z","coreid":"55ff71065075555329511687"}
+
+event: ay
+data: {"data":"172","ttl":"60","published_at":"2015-03-24T08:11:12.663Z","coreid":"53ff72065067544812351287"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:11:12.733Z","coreid":"51ff6a065082554927580687"}
+
+event: Uptime
+data: {"data":"1:40:36","ttl":"60","published_at":"2015-03-24T08:11:12.750Z","coreid":"48ff6a065067555043401287"}
+
+event: enviro
+data: {"data":"{\"t\": 65, \"h\": 28, \"w\": 40, \"snd\": 4}","ttl":"60","published_at":"2015-03-24T08:11:12.861Z","coreid":"53ff6a066667574850472367"}
+
+event: Measuring...
+data: {"data":"null","ttl":"60","published_at":"2015-03-24T08:11:12.864Z","coreid":"48ff6d065067555058332387"}
+
+event: SupplyVoltage
+data: {"data":"0.018497","ttl":"60","published_at":"2015-03-24T08:11:12.865Z","coreid":"48ff6d065067555058332387"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:11:12.867Z","coreid":"53ff6a066667574850472367"}
+
+event: analogVal
+data: {"data":"16","ttl":"60","published_at":"2015-03-24T08:11:12.903Z","coreid":"53ff6d065067544855351287"}
+
+event: ax
+data: {"data":"184","ttl":"60","published_at":"2015-03-24T08:11:12.904Z","coreid":"53ff6d065067544855351287"}
+
+event: ay
+data: {"data":"170","ttl":"60","published_at":"2015-03-24T08:11:12.929Z","coreid":"53ff6d065067544855351287"}
+
+event: SupplyVRaw
+data: {"data":"2076","ttl":"60","published_at":"2015-03-24T08:11:12.956Z","coreid":"48ff6d065067555058332387"}
+
+event: MotionEvent
+data: {"data":"ended","ttl":"60","published_at":"2015-03-24T08:11:13.006Z","coreid":"55ff6d065075555315531687"}
+
+event: analogVal
+data: {"data":"29","ttl":"60","published_at":"2015-03-24T08:11:13.074Z","coreid":"48ff6e065067555048571287"}
+
+event: ax
+data: {"data":"7","ttl":"60","published_at":"2015-03-24T08:11:13.075Z","coreid":"48ff6e065067555048571287"}
+
+event: ay
+data: {"data":"181","ttl":"60","published_at":"2015-03-24T08:11:13.099Z","coreid":"48ff6e065067555048571287"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:11:13.181Z","coreid":"54ff70066678574926410667"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:11:13.291Z","coreid":"53ff6e066667574836061267"}
+
+event: enviro
+data: {"data":"{\"t\": 64, \"h\": 22, \"w\": 40, \"snd\": 2}","ttl":"60","published_at":"2015-03-24T08:11:13.429Z","coreid":"54ff6e066667515108441567"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:11:13.434Z","coreid":"54ff6e066667515108441567"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:11:13.653Z","coreid":"55ff71065075555329511687"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:11:13.738Z","coreid":"51ff6a065082554927580687"}
+
+event: enviro
+data: {"data":"{\"t\": 69, \"h\": 23, \"w\": 42, \"snd\": 8}","ttl":"60","published_at":"2015-03-24T08:11:13.859Z","coreid":"53ff73066667574841180967"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:11:13.864Z","coreid":"53ff73066667574841180967"}
+
+event: analogVal
+data: {"data":"49","ttl":"60","published_at":"2015-03-24T08:11:14.034Z","coreid":"53ff6e066667574847262367"}
+
+event: ax
+data: {"data":"178","ttl":"60","published_at":"2015-03-24T08:11:14.041Z","coreid":"53ff6e066667574847262367"}
+
+event: ay
+data: {"data":"179","ttl":"60","published_at":"2015-03-24T08:11:14.097Z","coreid":"53ff6e066667574847262367"}
+
+event: Uptime
+data: {"data":"18:5:25","ttl":"60","published_at":"2015-03-24T08:11:14.111Z","coreid":"55ff70065075555341561787"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:11:14.227Z","coreid":"54ff70066678574926410667"}
+
+event: yahi
+data: {"data":"{ lpo: 49751, r: 0.165837, c: 86.755569 }","ttl":"60","published_at":"2015-03-24T08:11:14.269Z","coreid":"55ff70065075555333491887"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:11:14.323Z","coreid":"53ff6e066667574836061267"}
+
+event: waterbot_state
+data: {"data":"{\"reading\": 0, \"moisture\": 1084148736, \"last_greense\": 0}","ttl":"60","published_at":"2015-03-24T08:11:14.346Z","coreid":"53ff6e066667574823382567"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:11:14.653Z","coreid":"55ff71065075555329511687"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 62}}","ttl":"60","published_at":"2015-03-24T08:11:14.743Z","coreid":"51ff6a065082554927580687"}
+
+event: weatherinfo
+data: {"data":"Grain=57697.00|Lux","ttl":"60","published_at":"2015-03-24T08:11:14.777Z","coreid":"51ff6e065082554929081487"}
+
+event: Uptime
+data: {"data":"{\"Ah\":-12.238,\"V\":83.200}","ttl":"60","published_at":"2015-03-24T08:11:14.839Z","coreid":"48ff68065067555027472287"}
+
+event: temperatureInfo
+data: {"data":"46.29","ttl":"60","published_at":"2015-03-24T08:11:15.001Z","coreid":"54ff6e066678574930210267"}
+
+event: 2107
+data: {"data":"undefined","ttl":"60","published_at":"2015-03-24T08:11:15.179Z","coreid":"50ff6f065067545637410387"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:11:15.261Z","coreid":"54ff70066678574926410667"}
+
+event: Uptime
+data: {"data":"20:41:49","ttl":"60","published_at":"2015-03-24T08:11:15.315Z","coreid":"55ff6c066678505522171367"}
+
+event: Temperature/Deck/Outside
+data: {"data":"1.112305","ttl":"60","published_at":"2015-03-24T08:11:15.357Z","coreid":"50ff6f065067545637390387"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:11:15.358Z","coreid":"53ff6e066667574836061267"}
+
+event: emergence-event
+data: {"data":"1000","ttl":"60","published_at":"2015-03-24T08:11:15.380Z","coreid":"53ff70066667574849402167"}
+
+event: here/off
+data: {"data":"54ff6c066667515112341467","ttl":"60","published_at":"2015-03-24T08:11:15.469Z","coreid":"54ff6c066667515112341467"}
+
+event: yahi
+data: {"data":"{ lpo: 260925, r: 0.869750, c: 450.739166 }","ttl":"60","published_at":"2015-03-24T08:11:15.496Z","coreid":"53ff6f065075535130181587"}
+
+event: F&DEvent
+data: {"data":"Draining","ttl":"60","published_at":"2015-03-24T08:11:15.653Z","coreid":"55ff71065075555329511687"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:11:15.745Z","coreid":"51ff6a065082554927580687"}
+
+event: Measuring...
+data: {"data":"null","ttl":"60","published_at":"2015-03-24T08:11:15.967Z","coreid":"48ff6d065067555058332387"}
+
+event: SupplyVoltage
+data: {"data":"0.018497","ttl":"60","published_at":"2015-03-24T08:11:15.968Z","coreid":"48ff6d065067555058332387"}
+
+event: SupplyVRaw
+data: {"data":"2076","ttl":"60","published_at":"2015-03-24T08:11:16.059Z","coreid":"48ff6d065067555058332387"}
+
+event: status
+data: {"data":"10001004","ttl":"60","published_at":"2015-03-24T08:11:16.200Z","coreid":"53ff75066678505560322367"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:11:16.316Z","coreid":"54ff70066678574926410667"}
+
+event: sensorOutput
+data: {"data":"{\"c\": 10257, \"d\": -508, \"e\": 8395, \"h\": 44.90, \"f\": 70.52}","ttl":"4","published_at":"2015-03-24T08:11:16.378Z","coreid":"53ff76065075535157431187"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.38 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:11:16.392Z","coreid":"53ff6e066667574836061267"}
+
+event: Uptime
+data: {"data":"17:10:34","ttl":"60","published_at":"2015-03-24T08:11:16.399Z","coreid":"51ff6c065082554925510887"}
+
+event: BeerTemperature
+data: {"data":"61.000000","ttl":"60","published_at":"2015-03-24T08:11:16.403Z","coreid":"51ff6c065082554925510887"}
+
+event: ChamberTemperature
+data: {"data":"70.000000","ttl":"60","published_at":"2015-03-24T08:11:16.455Z","coreid":"51ff6c065082554925510887"}
+
+event: Humidity
+data: {"data":"50","ttl":"60","published_at":"2015-03-24T08:11:16.459Z","coreid":"51ff6c065082554925510887"}
+
+event: status
+data: {"data":"10012002","ttl":"60","published_at":"2015-03-24T08:11:16.616Z","coreid":"54ff72066672524838411867"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 63}}","ttl":"60","published_at":"2015-03-24T08:11:16.751Z","coreid":"51ff6a065082554927580687"}
+
+event: pDate
+data: {"data":"{\"Day\": 24, \"Month\": 3, \"Year\": 2015}","ttl":"60","published_at":"2015-03-24T08:11:16.826Z","coreid":"53ff72065075535122081687"}
+
+event: pTime
+data: {"data":"{\"Hours\": 9, \"Minutes\": 11, \"Seconds\": 16}","ttl":"60","published_at":"2015-03-24T08:11:16.827Z","coreid":"53ff72065075535122081687"}
+
+event: enviro
+data: {"data":"{\"t\": 69, \"h\": 18, \"w\": 52, \"snd\": 98}","ttl":"60","published_at":"2015-03-24T08:11:16.838Z","coreid":"53ff6f066667574840462367"}
+
+event: mq2
+data: {"data":"{\"l\": 0, \"c\": 0, \"s\": 0}","ttl":"60","published_at":"2015-03-24T08:11:16.842Z","coreid":"53ff6f066667574840462367"}
+
+event: pPhoto
+data: {"data":"{\"Photocell\": 1023}","ttl":"60","published_at":"2015-03-24T08:11:17.164Z","coreid":"53ff72065075535122081687"}
+
+event: pMisc
+data: {"data":"{\"Temperature\": 10.2, \"SCL\": 1, \"RSSI\": -64}","ttl":"60","published_at":"2015-03-24T08:11:17.165Z","coreid":"53ff72065075535122081687"}
+
+event: message
+data: {"data":"{\"event\":\"motionChanged\",\"motion\":\"false\"}","ttl":"60","published_at":"2015-03-24T08:11:17.189Z","coreid":"53ff70066667574829152467"}
+
+event: MotionEvent
+data: {"data":"detected","ttl":"60","published_at":"2015-03-24T08:11:17.211Z","coreid":"55ff6d065075555315531687"}
+
+event: Data1
+data: {"data":"{\"I\":72.95,\"O\":54.05,\"H\":40.00,\"T\":59.00}","ttl":"60","published_at":"2015-03-24T08:11:17.273Z","coreid":"55ff68065075555337511687"}
+
+event: Reading
+data: {"data":"16686;32;0","ttl":"60","published_at":"2015-03-24T08:11:17.343Z","coreid":"54ff70066678574926410667"}
+
+event: tmpInfo
+data: {"data":"Temperature: 71.49 Fahrenheit","ttl":"60","published_at":"2015-03-24T08:11:17.422Z","coreid":"53ff6e066667574836061267"}
+
+event: Uptime
+data: {"data":"5:12:43","ttl":"60","published_at":"2015-03-24T08:11:17.519Z","coreid":"54ff6e066672524839110167"}
+
+event: temphumpool
+data: {"data":"T=72 H=97% DP=71 ","ttl":"60","published_at":"2015-03-24T08:11:17.559Z","coreid":"55ff6b065075555330331787"}
+
+event: analogVal
+data: {"data":"30","ttl":"60","published_at":"2015-03-24T08:11:17.639Z","coreid":"53ff72065067544812351287"}
+
+event: ax
+data: {"data":"203","ttl":"60","published_at":"2015-03-24T08:11:17.640Z","coreid":"53ff72065067544812351287"}
+
+event: ay
+data: {"data":"173","ttl":"60","published_at":"2015-03-24T08:11:17.665Z","coreid":"53ff72065067544812351287"}
+
+event: PumpFailEvent
+data: {"data":"Pump failure","ttl":"60","published_at":"2015-03-24T08:11:17.667Z","coreid":"55ff71065075555329511687"}
+
+event: iothackday/alex1
+data: {"data":"{\"tempData\": {\"desiredTemp\": 64, \"currentTemp\": 62}}","ttl":"60","published_at":"2015-03-24T08:11:17.755Z","coreid":"51ff6a065082554927580687"}
+
+event: weatherinfo
+data: {"data":"§No power - closing down","ttl":"60","published_at":"2015-03-24T08:11:17.777Z","coreid":"51ff6e065082554929081487"}
+
+event: yahi
+data: {"data":"{ lpo: 67472, r: 0.224907, c: 117.391769 }","ttl":"60","published_at":"2015-03-24T08:11:17.786Z","coreid":"53ff6e065075535150161787"}
+
+event: Uptime
+data: {"data":"{\"Hours\": 6, \"Minutes\": 43, \"Seconds\": 42}","ttl":"60","published_at":"2015-03-24T08:11:17.903Z","coreid":"53ff71066667574819422467"}
+
+event: analogVal
+data: {"data":"19","ttl":"60","published_at":"2015-03-24T08:11:17.907Z","coreid":"53ff6d065067544855351287"}
+
+event: ax
+data: {"data":"183","ttl":"60","published_at":"2015-03-24T08:11:17.908Z","coreid":"53ff6d065067544855351287"}
+
+event: ay
+data: {"data":"170","ttl":"60","published_at":"2015-03-24T08:11:17.932Z","coreid":"53ff6d065067544855351287"}
+
+event: sensorOutput
+data: {"data":"{\"c\": 2990, \"d\": -313, \"e\": 3442, \"h\": 32.40, \"f\": 77.90}","ttl":"4","published_at":"2015-03-24T08:11:18.066Z","coreid":"54ff6f066678574928501067"}
+
+event: analogVal
+data: {"data":"21","ttl":"60","published_at":"2015-03-24T08:11:18.081Z","coreid":"48ff6e065067555048571287"}
+
+event: ax
+data: {"data":"7","ttl":"60","published_at":"2015-03-24T08:11:18.085Z","coreid":"48ff6e065067555048571287"}
+
+event: ay
+data: {"data":"180","ttl":"60","published_at":"2015-03-24T08:11:18.106Z","coreid":"48ff6e065067555048571287"}
