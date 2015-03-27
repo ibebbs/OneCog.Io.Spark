@@ -117,6 +117,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Event0Data" xml:space="preserve">
+    <value>data: {"data":"{\"Photocell\": 1023}","ttl":"60","published_at":"2015-03-24T08:10:24.573Z","coreid":"53ff72065075535122081687"}</value>
+  </data>
+  <data name="Event0Name" xml:space="preserve">
+    <value>event: pPhoto</value>
+  </data>
+  <data name="Event1Data" xml:space="preserve">
+    <value>data: {"data":"{\"Temperature\": 10.2, \"SCL\": 1, \"RSSI\": -63}","ttl":"60","published_at":"2015-03-24T08:10:24.573Z","coreid":"53ff72065075535122081687"}</value>
+  </data>
+  <data name="Event1Name" xml:space="preserve">
+    <value>event: pMisc</value>
+  </data>
+  <data name="EventRequestUri" xml:space="preserve">
+    <value>https://api.spark.io/v1/events/?access_token={0}</value>
+  </data>
   <data name="JsonDeviceInfo" xml:space="preserve">
     <value>{
   "id": "53ff6c065075535119511687",
@@ -158,5 +173,8 @@
     "last_heard": "2014-08-22T22:33:25.407"
   }
 }</value>
+  </data>
+  <data name="StreamHeader" xml:space="preserve">
+    <value>:ok</value>
   </data>
 </root>

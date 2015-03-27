@@ -39,7 +39,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Api.cs" />
+    <Compile Include="Event.cs" />
+    <Compile Include="EventFactory.cs" />
+    <Compile Include="Events\DataEvent.cs" />
+    <Compile Include="Events\DataEventFactory.cs" />
+    <Compile Include="Events\EventData.cs" />
+    <Compile Include="Events\IFactory.cs" />
+    <Compile Include="Events\Messages.cs" />
+    <Compile Include="Events\NamedDataEvent.cs" />
+    <Compile Include="Events\NamedDataEventFactory.cs" />
+    <Compile Include="Events\StreamStartEvent.cs" />
+    <Compile Include="Events\StreamStartEventFactory.cs" />
     <Compile Include="Fallible.cs" />
+    <Compile Include="IEvent.cs" />
     <Compile Include="RestClient.cs" />
     <Compile Include="Cloud.cs" />
     <Compile Include="CoreInfo.cs" />

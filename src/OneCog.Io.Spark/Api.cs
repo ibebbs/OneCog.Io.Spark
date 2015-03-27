@@ -8,6 +8,7 @@ using System.Net.Http.Headers;
 using System.Reactive.Concurrency;
 using System.Reactive.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace OneCog.Io.Spark
@@ -26,12 +27,15 @@ namespace OneCog.Io.Spark
         public static readonly string BaseAddress = "api.spark.io";
         public static readonly string VersionPath = "v1";
         public static readonly string DevicesPath = "devices";
+        public static readonly string EventsPath = "events";
         
         private readonly IRestClient _apiClient;
+        private readonly IEventFactory _eventFactory;
 
-        public Api(IRestClient apiClient)
+        public Api(IRestClient apiClient, IEventFactory eventFactory)
         {
             _apiClient = apiClient;
+            _eventFactory = eventFactory;
         }
 
         public async Task<IEnumerable<IDevicesInfo>> GetCores()
@@ -102,6 +106,29 @@ namespace OneCog.Io.Spark
                     }
                 }
             );
+        }
+
+        private Task<IObservable<Fallible<IEvent>>> ParseStream(Stream stream, CancellationToken ct)
+        {
+            IObservable<string> observable = Observable.Using(
+                () => new StreamReader(stream),
+                reader => Observable.Generate(reader, r => !r.EndOfStream, r => r, r => r.ReadLine())
+            ).Publish().RefCount();
+
+            IObservable<Fallible<IEvent>> events = observable.Window(observable.Where(string.IsNullOrWhiteSpace))
+                .SelectMany(window => window.Where(line => !string.IsNullOrWhiteSpace(line)).ToArray())
+                .SelectMany(_eventFactory.ConstructEvent)
+                .Select(@event => Fallible.FromValue(@event));
+
+            return Task.FromResult(events);
+        }
+
+        public IObservable<Fallible<IEvent>> ObserveEvents(string eventName, string deviceId)
+        {
+            Uri uri = Event.Identifier(eventName, deviceId);
+
+            return Observable
+                .Using(async ct => await _apiClient.Get(uri), ParseStream);
         }
     }
 }

@@ -61,6 +61,51 @@ namespace OneCog.Io.Spark.Test {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to data: {&quot;data&quot;:&quot;{\&quot;Photocell\&quot;: 1023}&quot;,&quot;ttl&quot;:&quot;60&quot;,&quot;published_at&quot;:&quot;2015-03-24T08:10:24.573Z&quot;,&quot;coreid&quot;:&quot;53ff72065075535122081687&quot;}.
+        /// </summary>
+        internal static string Event0Data {
+            get {
+                return ResourceManager.GetString("Event0Data", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to event: pPhoto.
+        /// </summary>
+        internal static string Event0Name {
+            get {
+                return ResourceManager.GetString("Event0Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to data: {&quot;data&quot;:&quot;{\&quot;Temperature\&quot;: 10.2, \&quot;SCL\&quot;: 1, \&quot;RSSI\&quot;: -63}&quot;,&quot;ttl&quot;:&quot;60&quot;,&quot;published_at&quot;:&quot;2015-03-24T08:10:24.573Z&quot;,&quot;coreid&quot;:&quot;53ff72065075535122081687&quot;}.
+        /// </summary>
+        internal static string Event1Data {
+            get {
+                return ResourceManager.GetString("Event1Data", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to event: pMisc.
+        /// </summary>
+        internal static string Event1Name {
+            get {
+                return ResourceManager.GetString("Event1Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to https://api.spark.io/v1/events/?access_token={0}.
+        /// </summary>
+        internal static string EventRequestUri {
+            get {
+                return ResourceManager.GetString("EventRequestUri", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to {
         ///  &quot;id&quot;: &quot;53ff6c065075535119511687&quot;,
         ///  &quot;name&quot;: &quot;FirstCore&quot;,
@@ -123,6 +168,15 @@ namespace OneCog.Io.Spark.Test {
         internal static string JsonVariable {
             get {
                 return ResourceManager.GetString("JsonVariable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to :ok.
+        /// </summary>
+        internal static string StreamHeader {
+            get {
+                return ResourceManager.GetString("StreamHeader", resourceCulture);
             }
         }
     }
