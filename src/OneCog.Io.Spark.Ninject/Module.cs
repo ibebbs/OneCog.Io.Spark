@@ -19,7 +19,7 @@ namespace OneCog.Io.Spark.Ninject
         {
             EventSourceImplementationAttribute.For<IRestClient>(new EventSourceImplementationAttribute() { Name = "OneCog-Io-Spark-Ninject" });
             EventSourceImplementationAttribute.For<IApi>(new EventSourceImplementationAttribute() { Name = "OneCog-Io-Spark-Ninject-Api" });
-            
+                        
             Bind<string>().ToConstant(_accessToken).WhenInjectedExactlyInto<RestClient>().InSingletonScope();
             Bind<IScheduler>().ToConstant(TaskPoolScheduler.Default).WhenInjectedExactlyInto<RestClient>().InSingletonScope();
 
